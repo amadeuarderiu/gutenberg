@@ -1,13 +1,6 @@
-/**
- * WordPress dependencies
- */
-
-export default function ListItem( props ) {
-	const { children, noWrapList = false } = props;
-	let childNodes = null;
-
+export default function ListItem( { children, noWrapList = false } ) {
 	if ( children ) {
-		childNodes = children.map( function( childNode, index ) {
+		const childNodes = children.map( function( childNode, index ) {
 			const { content, anchor, level } = childNode.block;
 
 			const entry = anchor ? (

@@ -5,7 +5,7 @@ export default function ListItem( { children, noWrapList = false } ) {
 
 			const entry = anchor ? (
 				<a
-					className="blocks-table-of-contents-entry"
+					className="wp-block-table-of-contents__entry"
 					href={ anchor }
 					data-level={ level }
 				>
@@ -13,7 +13,7 @@ export default function ListItem( { children, noWrapList = false } ) {
 				</a>
 			) : (
 				<span
-					className="blocks-table-of-contents-entry"
+					className="wp-block-table-of-contents__entry"
 					data-level={ level }
 				>
 					{ content }

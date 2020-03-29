@@ -1,6 +1,6 @@
 export default function ListItem( { children, noWrapList = false } ) {
 	if ( children ) {
-		const childNodes = children.map( function( childNode, index ) {
+		const childNodes = children.map( ( childNode, index ) => {
 			const { content, anchor, level } = childNode.block;
 
 			const entry = anchor ? (

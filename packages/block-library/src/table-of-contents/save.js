@@ -1,8 +1,8 @@
 /**
  * Internal dependencies
  */
+import ListItem from './list-item';
 import { linearToNestedHeadingList } from './utils';
-import ListItem from './ListItem';
 
 export default function save( props ) {
 	const { attributes } = props;

@@ -311,6 +311,1178 @@ exports[`Storyshots Components/BaseControl Default 1`] = `
 </div>
 `;
 
+exports[`Storyshots Components/BoxControl Default 1`] = `
+.emotion-70 {
+  max-width: 400px;
+}
+
+.emotion-41 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.emotion-41 > * {
+  padding-right: 8px;
+}
+
+.emotion-41 > *:last-child {
+  padding-right: 0;
+}
+
+.emotion-0 {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.emotion-12 {
+  box-sizing: border-box;
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  padding: 4px;
+}
+
+.emotion-10 {
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 1;
+  height: 2px;
+  left: 3px;
+  right: 3px;
+  top: 0;
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 1;
+  bottom: 3px;
+  top: 3px;
+  width: 2px;
+  right: 0;
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 1;
+  height: 2px;
+  left: 3px;
+  right: 3px;
+  bottom: 0;
+}
+
+.emotion-8 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 1;
+  bottom: 3px;
+  top: 3px;
+  width: 2px;
+  left: 0;
+}
+
+.emotion-16 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.3;
+  bottom: 3px;
+  top: 3px;
+  width: 2px;
+  right: 0;
+}
+
+.emotion-20 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.3;
+  bottom: 3px;
+  top: 3px;
+  width: 2px;
+  left: 0;
+}
+
+.emotion-30 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.3;
+  height: 2px;
+  left: 3px;
+  right: 3px;
+  bottom: 0;
+}
+
+.emotion-68 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.emotion-68 > * {
+  padding-right: 4px;
+}
+
+.emotion-68 > *:last-child {
+  padding-right: 0;
+}
+
+.emotion-56 {
+  min-width: 0;
+  max-width: 100%;
+  padding-right: 8px;
+}
+
+.emotion-66 {
+  min-width: 0;
+  max-width: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-64 {
+  box-sizing: border-box;
+  max-width: 75px;
+}
+
+.emotion-62 {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.emotion-58.emotion-58.emotion-58 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  border-radius: 2px;
+  padding: 3px 8px;
+  display: block;
+  width: 100%;
+  padding-right: 20px;
+  height: 30px;
+  line-height: 30;
+  min-height: 30px;
+}
+
+.emotion-58.emotion-58.emotion-58::-webkit-outer-spin-button,
+.emotion-58.emotion-58.emotion-58::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.emotion-60.emotion-60.emotion-60 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff;
+  border-radius: 2px;
+  border: none;
+  box-sizing: border-box;
+  color: #555d66;
+  display: block;
+  font-size: 8px;
+  line-height: 1;
+  -webkit-letter-spacing: -0.5px;
+  -moz-letter-spacing: -0.5px;
+  -ms-letter-spacing: -0.5px;
+  letter-spacing: -0.5px;
+  outline: none;
+  padding: 2px 2px;
+  position: absolute;
+  text-align-last: center;
+  text-transform: uppercase;
+  width: 22px;
+  z-index: 1;
+  right: 4px;
+  top: 5px;
+  height: 20px;
+  min-height: 20px;
+  padding: 6px 2px;
+}
+
+<div
+  className="emotion-70 emotion-71"
+>
+  <div
+    className="components-flex emotion-40 emotion-41 emotion-42"
+  >
+    <div
+      className="components-flex__item emotion-0 emotion-1"
+    >
+      Box Control
+    </div>
+    <div
+      className="components-flex__item emotion-0 emotion-1"
+    >
+      <div
+        aria-label="Box Control"
+        className="components-button-group"
+        id="id-ge7rai"
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        role="radiogroup"
+      >
+        <button
+          aria-checked={true}
+          checked={true}
+          className="components-button is-primary"
+          id="id-ge7rai-1"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="radio"
+          tabIndex={-1}
+          type="radio"
+          value="all"
+        >
+          <span
+            className="emotion-12 emotion-13"
+            style={
+              Object {
+                "transform": "scale(1)",
+              }
+            }
+          >
+            <span
+              className="emotion-10 emotion-11"
+            >
+              <span
+                className="emotion-2 emotion-3"
+              />
+              <span
+                className="emotion-4 emotion-5"
+              />
+              <span
+                className="emotion-6 emotion-7"
+              />
+              <span
+                className="emotion-8 emotion-9"
+              />
+            </span>
+          </span>
+        </button>
+        <button
+          aria-checked={false}
+          checked={false}
+          className="components-button"
+          id="id-ge7rai-2"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="radio"
+          tabIndex={-1}
+          type="radio"
+          value="pairs"
+        >
+          <span
+            className="emotion-12 emotion-13"
+            style={
+              Object {
+                "transform": "scale(1)",
+              }
+            }
+          >
+            <span
+              className="emotion-10 emotion-11"
+            >
+              <span
+                className="emotion-2 emotion-3"
+              />
+              <span
+                className="emotion-16 emotion-5"
+              />
+              <span
+                className="emotion-6 emotion-7"
+              />
+              <span
+                className="emotion-20 emotion-9"
+              />
+            </span>
+          </span>
+        </button>
+        <button
+          aria-checked={false}
+          checked={false}
+          className="components-button"
+          id="id-ge7rai-3"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          role="radio"
+          tabIndex={-1}
+          type="radio"
+          value="custom"
+        >
+          <span
+            className="emotion-12 emotion-13"
+            style={
+              Object {
+                "transform": "scale(1)",
+              }
+            }
+          >
+            <span
+              className="emotion-10 emotion-11"
+            >
+              <span
+                className="emotion-2 emotion-3"
+              />
+              <span
+                className="emotion-16 emotion-5"
+              />
+              <span
+                className="emotion-30 emotion-7"
+              />
+              <span
+                className="emotion-20 emotion-9"
+              />
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="components-flex emotion-68 emotion-42"
+  >
+    <div
+      className="components-flex__item emotion-55 emotion-56 emotion-1"
+    >
+      <span
+        className="emotion-12 emotion-13"
+        style={
+          Object {
+            "transform": "scale(1)",
+          }
+        }
+      >
+        <span
+          className="emotion-10 emotion-11"
+        >
+          <span
+            className="emotion-2 emotion-3"
+          />
+          <span
+            className="emotion-4 emotion-5"
+          />
+          <span
+            className="emotion-6 emotion-7"
+          />
+          <span
+            className="emotion-8 emotion-9"
+          />
+        </span>
+      </span>
+    </div>
+    <div
+      className="components-flex__block emotion-66 emotion-67"
+    >
+      <div
+        aria-label="All Sides"
+        className="emotion-64 emotion-65"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <div
+          className="component-unit-control emotion-62 emotion-63"
+        >
+          <input
+            className="component-number-control component-unit-control__input emotion-58 emotion-59"
+            inputMode="numeric"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onTouchStart={[Function]}
+            placeholder="Mixed"
+            size="default"
+            style={
+              Object {
+                "cursor": undefined,
+                "userSelect": undefined,
+              }
+            }
+            type="number"
+            value={0}
+          />
+          <div
+            className="emotion-60 emotion-61"
+            size="default"
+          >
+            px
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/BoxControl Demo 1`] = `
+.emotion-70 {
+  max-width: 400px;
+}
+
+.emotion-41 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.emotion-41 > * {
+  padding-right: 8px;
+}
+
+.emotion-41 > *:last-child {
+  padding-right: 0;
+}
+
+.emotion-0 {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.emotion-12 {
+  box-sizing: border-box;
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  padding: 4px;
+}
+
+.emotion-10 {
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 1;
+  height: 2px;
+  left: 3px;
+  right: 3px;
+  top: 0;
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 1;
+  bottom: 3px;
+  top: 3px;
+  width: 2px;
+  right: 0;
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 1;
+  height: 2px;
+  left: 3px;
+  right: 3px;
+  bottom: 0;
+}
+
+.emotion-8 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 1;
+  bottom: 3px;
+  top: 3px;
+  width: 2px;
+  left: 0;
+}
+
+.emotion-16 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.3;
+  bottom: 3px;
+  top: 3px;
+  width: 2px;
+  right: 0;
+}
+
+.emotion-20 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.3;
+  bottom: 3px;
+  top: 3px;
+  width: 2px;
+  left: 0;
+}
+
+.emotion-30 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.3;
+  height: 2px;
+  left: 3px;
+  right: 3px;
+  bottom: 0;
+}
+
+.emotion-68 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.emotion-68 > * {
+  padding-right: 4px;
+}
+
+.emotion-68 > *:last-child {
+  padding-right: 0;
+}
+
+.emotion-56 {
+  min-width: 0;
+  max-width: 100%;
+  padding-right: 8px;
+}
+
+.emotion-66 {
+  min-width: 0;
+  max-width: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-64 {
+  box-sizing: border-box;
+  max-width: 75px;
+}
+
+.emotion-62 {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.emotion-58.emotion-58.emotion-58 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  border-radius: 2px;
+  padding: 3px 8px;
+  display: block;
+  width: 100%;
+  padding-right: 20px;
+  height: 30px;
+  line-height: 30;
+  min-height: 30px;
+}
+
+.emotion-58.emotion-58.emotion-58::-webkit-outer-spin-button,
+.emotion-58.emotion-58.emotion-58::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.emotion-60.emotion-60.emotion-60 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff;
+  border-radius: 2px;
+  border: none;
+  box-sizing: border-box;
+  color: #555d66;
+  display: block;
+  font-size: 8px;
+  line-height: 1;
+  -webkit-letter-spacing: -0.5px;
+  -moz-letter-spacing: -0.5px;
+  -ms-letter-spacing: -0.5px;
+  letter-spacing: -0.5px;
+  outline: none;
+  padding: 2px 2px;
+  position: absolute;
+  text-align-last: center;
+  text-transform: uppercase;
+  width: 22px;
+  z-index: 1;
+  right: 4px;
+  top: 5px;
+  height: 20px;
+  min-height: 20px;
+  padding: 6px 2px;
+}
+
+.emotion-91 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 780px;
+}
+
+.emotion-91 > * {
+  padding-right: 32px;
+}
+
+.emotion-91 > *:last-child {
+  padding-right: 0;
+}
+
+.emotion-72 {
+  padding: 20px;
+}
+
+.emotion-84 {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.emotion-76 {
+  position: absolute;
+  background: blue;
+  opacity: 0.2;
+}
+
+<div
+  className="components-flex emotion-90 emotion-91 emotion-42"
+>
+  <div
+    className="components-flex__block emotion-66 emotion-67"
+  >
+    <div
+      className="emotion-72 emotion-73"
+    >
+      <div
+        className="emotion-70 emotion-71"
+      >
+        <div
+          className="components-flex emotion-40 emotion-41 emotion-42"
+        >
+          <div
+            className="components-flex__item emotion-0 emotion-1"
+          >
+            Padding
+          </div>
+          <div
+            className="components-flex__item emotion-0 emotion-1"
+          >
+            <div
+              aria-label="Padding"
+              className="components-button-group"
+              id="id-g5gin4"
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              role="radiogroup"
+            >
+              <button
+                aria-checked={true}
+                checked={true}
+                className="components-button is-primary"
+                id="id-g5gin4-1"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                role="radio"
+                tabIndex={-1}
+                type="radio"
+                value="all"
+              >
+                <span
+                  className="emotion-12 emotion-13"
+                  style={
+                    Object {
+                      "transform": "scale(1)",
+                    }
+                  }
+                >
+                  <span
+                    className="emotion-10 emotion-11"
+                  >
+                    <span
+                      className="emotion-2 emotion-3"
+                    />
+                    <span
+                      className="emotion-4 emotion-5"
+                    />
+                    <span
+                      className="emotion-6 emotion-7"
+                    />
+                    <span
+                      className="emotion-8 emotion-9"
+                    />
+                  </span>
+                </span>
+              </button>
+              <button
+                aria-checked={false}
+                checked={false}
+                className="components-button"
+                id="id-g5gin4-2"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                role="radio"
+                tabIndex={-1}
+                type="radio"
+                value="pairs"
+              >
+                <span
+                  className="emotion-12 emotion-13"
+                  style={
+                    Object {
+                      "transform": "scale(1)",
+                    }
+                  }
+                >
+                  <span
+                    className="emotion-10 emotion-11"
+                  >
+                    <span
+                      className="emotion-2 emotion-3"
+                    />
+                    <span
+                      className="emotion-16 emotion-5"
+                    />
+                    <span
+                      className="emotion-6 emotion-7"
+                    />
+                    <span
+                      className="emotion-20 emotion-9"
+                    />
+                  </span>
+                </span>
+              </button>
+              <button
+                aria-checked={false}
+                checked={false}
+                className="components-button"
+                id="id-g5gin4-3"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                role="radio"
+                tabIndex={-1}
+                type="radio"
+                value="custom"
+              >
+                <span
+                  className="emotion-12 emotion-13"
+                  style={
+                    Object {
+                      "transform": "scale(1)",
+                    }
+                  }
+                >
+                  <span
+                    className="emotion-10 emotion-11"
+                  >
+                    <span
+                      className="emotion-2 emotion-3"
+                    />
+                    <span
+                      className="emotion-16 emotion-5"
+                    />
+                    <span
+                      className="emotion-30 emotion-7"
+                    />
+                    <span
+                      className="emotion-20 emotion-9"
+                    />
+                  </span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="components-flex emotion-68 emotion-42"
+        >
+          <div
+            className="components-flex__item emotion-55 emotion-56 emotion-1"
+          >
+            <span
+              className="emotion-12 emotion-13"
+              style={
+                Object {
+                  "transform": "scale(1)",
+                }
+              }
+            >
+              <span
+                className="emotion-10 emotion-11"
+              >
+                <span
+                  className="emotion-2 emotion-3"
+                />
+                <span
+                  className="emotion-4 emotion-5"
+                />
+                <span
+                  className="emotion-6 emotion-7"
+                />
+                <span
+                  className="emotion-8 emotion-9"
+                />
+              </span>
+            </span>
+          </div>
+          <div
+            className="components-flex__block emotion-66 emotion-67"
+          >
+            <div
+              aria-label="All Sides"
+              className="emotion-64 emotion-65"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
+              <div
+                className="component-unit-control emotion-62 emotion-63"
+              >
+                <input
+                  className="component-number-control component-unit-control__input emotion-58 emotion-59"
+                  inputMode="numeric"
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseDown={[Function]}
+                  onTouchStart={[Function]}
+                  placeholder="Mixed"
+                  size="default"
+                  style={
+                    Object {
+                      "cursor": undefined,
+                      "userSelect": undefined,
+                    }
+                  }
+                  type="number"
+                  value={10}
+                />
+                <div
+                  className="emotion-60 emotion-61"
+                  size="default"
+                >
+                  px
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="components-flex__block emotion-66 emotion-67"
+  >
+    <div
+      className="emotion-72 emotion-73"
+    >
+      <div
+        className="emotion-84 emotion-85"
+      >
+        <div
+          className="emotion-76 emotion-77"
+          style={
+            Object {
+              "left": 0,
+              "padding": 10,
+              "top": 0,
+              "width": "100%",
+            }
+          }
+        />
+        <div
+          className="emotion-76 emotion-77"
+          style={
+            Object {
+              "height": "100%",
+              "padding": 10,
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+        <div
+          className="emotion-76 emotion-77"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "padding": 10,
+              "width": "100%",
+            }
+          }
+        />
+        <div
+          className="emotion-76 emotion-77"
+          style={
+            Object {
+              "height": "100%",
+              "left": 0,
+              "padding": 10,
+              "top": 0,
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/BoxControl Icon 1`] = `
+.emotion-10 {
+  box-sizing: border-box;
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  padding: 4px;
+}
+
+.emotion-8 {
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 1;
+  height: 2px;
+  left: 3px;
+  right: 3px;
+  top: 0;
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 1;
+  bottom: 3px;
+  top: 3px;
+  width: 2px;
+  right: 0;
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 1;
+  height: 2px;
+  left: 3px;
+  right: 3px;
+  bottom: 0;
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  background-color: #000;
+  opacity: 1;
+  bottom: 3px;
+  top: 3px;
+  width: 2px;
+  left: 0;
+}
+
+<span
+  className="emotion-10 emotion-11"
+  style={
+    Object {
+      "transform": "scale(1)",
+    }
+  }
+>
+  <span
+    className="emotion-8 emotion-9"
+  >
+    <span
+      className="emotion-0 emotion-1"
+    />
+    <span
+      className="emotion-2 emotion-3"
+    />
+    <span
+      className="emotion-4 emotion-5"
+    />
+    <span
+      className="emotion-6 emotion-7"
+    />
+  </span>
+</span>
+`;
+
 exports[`Storyshots Components/Button Buttons 1`] = `
 <div
   style={
@@ -2872,6 +4044,461 @@ exports[`Storyshots Components/ExternalLink Default 1`] = `
 </a>
 `;
 
+exports[`Storyshots Components/Flex Default 1`] = `
+.emotion-0 {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.emotion-2 {
+  min-width: 0;
+  max-width: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.emotion-6 > * {
+  padding-right: 4px;
+}
+
+.emotion-6 > *:last-child {
+  padding-right: 0;
+}
+
+<div
+  className="components-flex example-only-show-outline emotion-6 emotion-7"
+>
+  <div
+    className="components-flex__item emotion-0 emotion-1"
+  >
+    <div
+      height={100}
+      style={
+        Object {
+          "background": "#ddd",
+          "fontSize": 12,
+          "height": 100,
+          "width": 100,
+        }
+      }
+      width={100}
+    >
+      Item
+    </div>
+  </div>
+  <div
+    className="components-flex__block emotion-2 emotion-3"
+  >
+    <div
+      height={300}
+      style={
+        Object {
+          "background": "#ddd",
+          "fontSize": 12,
+          "height": 300,
+          "width": "100%",
+        }
+      }
+    >
+      Block
+    </div>
+  </div>
+  <div
+    className="components-flex__item emotion-0 emotion-1"
+  >
+    <div
+      style={
+        Object {
+          "background": "#ddd",
+          "fontSize": 12,
+          "height": 40,
+          "width": 40,
+        }
+      }
+      width={40}
+    >
+      Item
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Flex Example Actions 1`] = `
+.emotion-0 {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.emotion-6 > * {
+  padding-right: 4px;
+}
+
+.emotion-6 > *:last-child {
+  padding-right: 0;
+}
+
+.emotion-10 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.emotion-10 > * {
+  padding-right: 4px;
+}
+
+.emotion-10 > *:last-child {
+  padding-right: 0;
+}
+
+<div
+  className="components-flex example-only-show-outline emotion-10 emotion-7"
+>
+  <div
+    className="components-flex__item emotion-0 emotion-1"
+  >
+    <button
+      className="components-button is-tertiary has-icon"
+      type="button"
+    >
+      <svg
+        aria-hidden={true}
+        focusable={false}
+        height={24}
+        role="img"
+        viewBox="-2 -2 24 24"
+        width={24}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M18 9v2H6l4 4-1 2-7-7 7-7 1 2-4 4h12z"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="components-flex__item emotion-0 emotion-1"
+  >
+    <div
+      className="components-flex emotion-6 emotion-7"
+    >
+      <div
+        className="components-flex__item emotion-0 emotion-1"
+      >
+        <button
+          className="components-button is-secondary is-primary"
+          type="button"
+        >
+          Add
+        </button>
+      </div>
+      <div
+        className="components-flex__item emotion-0 emotion-1"
+      >
+        <button
+          className="components-button is-secondary"
+          type="button"
+        >
+          Remove Item
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Flex Flex Block 1`] = `
+.emotion-0 {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.emotion-4 > * {
+  padding-right: 4px;
+}
+
+.emotion-4 > *:last-child {
+  padding-right: 0;
+}
+
+.emotion-8 {
+  min-width: 0;
+  max-width: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-12 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.emotion-12 > * {
+  padding-right: 4px;
+}
+
+.emotion-12 > *:last-child {
+  padding-right: 0;
+}
+
+<div>
+  <div
+    className="components-flex emotion-4 emotion-5"
+  >
+    <div
+      className="components-flex__item emotion-0 emotion-1"
+    >
+      <button
+        className="components-button is-secondary"
+        onClick={[Function]}
+        type="button"
+      >
+        Add Block
+      </button>
+    </div>
+    <div
+      className="components-flex__item emotion-0 emotion-1"
+    >
+      <button
+        className="components-button is-secondary"
+        onClick={[Function]}
+        type="button"
+      >
+        Remove Blcok
+      </button>
+    </div>
+  </div>
+  <hr />
+  <div
+    className="components-flex example-only-show-outline emotion-12 emotion-5"
+  >
+    <div
+      className="components-flex__item emotion-0 emotion-1"
+    >
+      <div
+        height={40}
+        style={
+          Object {
+            "background": "#ddd",
+            "fontSize": 12,
+            "height": 40,
+            "width": 40,
+          }
+        }
+        width={40}
+      />
+    </div>
+    <div
+      className="components-flex__block emotion-8 emotion-9"
+    >
+      <div
+        height={40}
+        style={
+          Object {
+            "background": "#ddd",
+            "fontSize": 12,
+            "height": 40,
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="components-flex__item emotion-0 emotion-1"
+    >
+      <div
+        height={40}
+        style={
+          Object {
+            "background": "#ddd",
+            "fontSize": 12,
+            "height": 40,
+            "width": 40,
+          }
+        }
+        width={40}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Flex Flex Item 1`] = `
+.emotion-0 {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.emotion-4 > * {
+  padding-right: 4px;
+}
+
+.emotion-4 > *:last-child {
+  padding-right: 0;
+}
+
+.emotion-8 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.emotion-8 > * {
+  padding-right: 4px;
+}
+
+.emotion-8 > *:last-child {
+  padding-right: 0;
+}
+
+<div>
+  <div
+    className="components-flex emotion-4 emotion-5"
+  >
+    <div
+      className="components-flex__item emotion-0 emotion-1"
+    >
+      <button
+        className="components-button is-secondary"
+        onClick={[Function]}
+        type="button"
+      >
+        Add Item
+      </button>
+    </div>
+    <div
+      className="components-flex__item emotion-0 emotion-1"
+    >
+      <button
+        className="components-button is-secondary"
+        onClick={[Function]}
+        type="button"
+      >
+        Remove Item
+      </button>
+    </div>
+  </div>
+  <hr />
+  <div
+    className="components-flex example-only-show-outline emotion-8 emotion-5"
+  >
+    <div
+      className="components-flex__item emotion-0 emotion-1"
+    >
+      <div
+        height={40}
+        style={
+          Object {
+            "background": "#ddd",
+            "fontSize": 12,
+            "height": 40,
+            "width": 40,
+          }
+        }
+        width={40}
+      />
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Components/FontSizePicker Default 1`] = `
 <fieldset
   className="components-font-size-picker"
@@ -3935,6 +5562,14 @@ exports[`Storyshots Components/NumberControl Default 1`] = `
   inputMode="numeric"
   onChange={[Function]}
   onKeyDown={[Function]}
+  onMouseDown={[Function]}
+  onTouchStart={[Function]}
+  style={
+    Object {
+      "cursor": undefined,
+      "userSelect": undefined,
+    }
+  }
   type="number"
   value=""
 />
@@ -9380,10 +11015,6 @@ exports[`Storyshots Components/TreeSelect Default 1`] = `
 `;
 
 exports[`Storyshots Components/UnitControl Default 1`] = `
-.emotion-6 {
-  max-width: 80px;
-}
-
 .emotion-4 {
   box-sizing: border-box;
   position: relative;
@@ -9409,6 +11040,10 @@ exports[`Storyshots Components/UnitControl Default 1`] = `
 .emotion-0.emotion-0.emotion-0::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.emotion-6 {
+  max-width: 80px;
 }
 
 .emotion-2.emotion-2.emotion-2 {
@@ -9463,9 +11098,17 @@ exports[`Storyshots Components/UnitControl Default 1`] = `
       inputMode="numeric"
       onChange={[Function]}
       onKeyDown={[Function]}
+      onMouseDown={[Function]}
+      onTouchStart={[Function]}
       size="default"
+      style={
+        Object {
+          "cursor": undefined,
+          "userSelect": undefined,
+        }
+      }
       type="number"
-      value=""
+      value="10"
     />
     <select
       className="component-unit-control__select component-unit-control__select emotion-2 emotion-3"

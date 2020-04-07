@@ -110,7 +110,6 @@ const baseUnitLabelStyles = ( props ) => {
 		text-align-last: center;
 		text-transform: uppercase;
 		width: 22px;
-		z-index: 1;
 
 		${rtl( { right: 4 } )()}
 		${unitSizeStyles( props )}

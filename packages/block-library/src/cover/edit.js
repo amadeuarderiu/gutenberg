@@ -67,6 +67,8 @@ const INNER_BLOCKS_TEMPLATE = [
 	],
 ];
 
+const { __Visualizer: BoxControlVisualizer } = BoxControl;
+
 function retrieveFastAverageColor() {
 	if ( ! retrieveFastAverageColor.fastAverageColor ) {
 		retrieveFastAverageColor.fastAverageColor = new FastAverageColor();
@@ -241,6 +243,7 @@ function CoverEdit( {
 		hasParallax,
 		minHeight,
 		minHeightUnit,
+		padding,
 		url,
 	} = attributes;
 	const {
@@ -366,7 +369,6 @@ function CoverEdit( {
 									} );
 								} }
 							/>
-							<BoxControl label="Padding" />
 						</PanelBody>
 						<PanelColorGradientSettings
 							title={ __( 'Overlay' ) }
@@ -453,62 +455,64 @@ function CoverEdit( {
 	return (
 		<>
 			{ controls }
-			<ResizableCover
-				className={ classnames(
-					'block-library-cover__resize-container',
-					{
-						'is-selected': isSelected,
-					}
-				) }
-				onResizeStart={ () => {
-					setAttributes( { minHeightUnit: 'px' } );
-					toggleSelection( false );
-				} }
-				onResize={ setTemporaryMinHeight }
-				onResizeStop={ ( newMinHeight ) => {
-					toggleSelection( true );
-					setAttributes( { minHeight: newMinHeight } );
-					setTemporaryMinHeight( null );
-				} }
-			>
-				<div data-url={ url } style={ style } className={ classes }>
-					{ IMAGE_BACKGROUND_TYPE === backgroundType && (
-						// Used only to programmatically check if the image is dark or not
-						<img
-							ref={ isDarkElement }
-							aria-hidden
-							alt=""
-							style={ {
-								display: 'none',
-							} }
-							src={ url }
-						/>
+			<BoxControlVisualizer values={ padding }>
+				<ResizableCover
+					className={ classnames(
+						'block-library-cover__resize-container',
+						{
+							'is-selected': isSelected,
+						}
 					) }
-					{ url && gradientValue && dimRatio !== 0 && (
-						<span
-							aria-hidden="true"
-							className={ classnames(
-								'wp-block-cover__gradient-background',
-								gradientClass
-							) }
-							style={ { background: gradientValue } }
-						/>
-					) }
-					{ VIDEO_BACKGROUND_TYPE === backgroundType && (
-						<video
-							ref={ isDarkElement }
-							className="wp-block-cover__video-background"
-							autoPlay
-							muted
-							loop
-							src={ url }
-						/>
-					) }
-					<div className="wp-block-cover__inner-container">
-						<InnerBlocks template={ INNER_BLOCKS_TEMPLATE } />
+					onResizeStart={ () => {
+						setAttributes( { minHeightUnit: 'px' } );
+						toggleSelection( false );
+					} }
+					onResize={ setTemporaryMinHeight }
+					onResizeStop={ ( newMinHeight ) => {
+						toggleSelection( true );
+						setAttributes( { minHeight: newMinHeight } );
+						setTemporaryMinHeight( null );
+					} }
+				>
+					<div data-url={ url } style={ style } className={ classes }>
+						{ IMAGE_BACKGROUND_TYPE === backgroundType && (
+							// Used only to programmatically check if the image is dark or not
+							<img
+								ref={ isDarkElement }
+								aria-hidden
+								alt=""
+								style={ {
+									display: 'none',
+								} }
+								src={ url }
+							/>
+						) }
+						{ url && gradientValue && dimRatio !== 0 && (
+							<span
+								aria-hidden="true"
+								className={ classnames(
+									'wp-block-cover__gradient-background',
+									gradientClass
+								) }
+								style={ { background: gradientValue } }
+							/>
+						) }
+						{ VIDEO_BACKGROUND_TYPE === backgroundType && (
+							<video
+								ref={ isDarkElement }
+								className="wp-block-cover__video-background"
+								autoPlay
+								muted
+								loop
+								src={ url }
+							/>
+						) }
+						<div className="wp-block-cover__inner-container">
+							<InnerBlocks template={ INNER_BLOCKS_TEMPLATE } />
+						</div>
 					</div>
-				</div>
-			</ResizableCover>
+				</ResizableCover>
+			</BoxControlVisualizer>
 		</>
 	);
 }

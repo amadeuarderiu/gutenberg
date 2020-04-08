@@ -2,7 +2,6 @@
 
 exports[`Storyshots Components/AlignmentMatrixControl Default 1`] = `
 .emotion-42 {
-  --width: 92px;
   border-radius: 2px;
   box-sizing: border-box;
   display: grid;
@@ -11,16 +10,12 @@ exports[`Storyshots Components/AlignmentMatrixControl Default 1`] = `
   border: 1px solid transparent;
   cursor: pointer;
   grid-template-columns: auto;
-  grid-template-rows: repeat( 3,calc( var( --width ) / 3 ) );
-  width: var( --width,92px );
-}
-
-.emotion-42:active,
-.emotion-42:focus {
-  border-color: #007cba;
+  grid-template-rows: repeat( 3,calc( 92px / 3 ) );
+  width: 92px;
 }
 
 .emotion-12 {
+  box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat( 3,1fr );
 }
@@ -97,18 +92,14 @@ exports[`Storyshots Components/AlignmentMatrixControl Default 1`] = `
 }
 
 <div
-  aria-activedescendant="alignment-matrix-control-0-center center"
   aria-label="Alignment Matrix Control"
   className="component-alignment-matrix-control emotion-42 emotion-43"
   id="alignment-matrix-control-0"
-  onBlur={[Function]}
-  onClick={[Function]}
   onFocus={[Function]}
   onKeyDown={[Function]}
   onKeyUp={[Function]}
-  onMouseDown={[Function]}
   role="grid"
-  tabIndex={0}
+  width={92}
 >
   <div
     className="emotion-12 emotion-13"
@@ -117,12 +108,15 @@ exports[`Storyshots Components/AlignmentMatrixControl Default 1`] = `
   >
     <span
       className="emotion-2 emotion-3"
-      id="alignment-matrix-control-0-top left"
+      id="alignment-matrix-control-0-top-left"
+      onBlur={[Function]}
       onClick={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
       onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       role="gridcell"
       tabIndex={-1}
     >
@@ -138,12 +132,15 @@ exports[`Storyshots Components/AlignmentMatrixControl Default 1`] = `
     </span>
     <span
       className="emotion-2 emotion-3"
-      id="alignment-matrix-control-0-top center"
+      id="alignment-matrix-control-0-top-center"
+      onBlur={[Function]}
       onClick={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
       onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       role="gridcell"
       tabIndex={-1}
     >
@@ -159,12 +156,15 @@ exports[`Storyshots Components/AlignmentMatrixControl Default 1`] = `
     </span>
     <span
       className="emotion-2 emotion-3"
-      id="alignment-matrix-control-0-top right"
+      id="alignment-matrix-control-0-top-right"
+      onBlur={[Function]}
       onClick={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
       onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       role="gridcell"
       tabIndex={-1}
     >
@@ -186,12 +186,15 @@ exports[`Storyshots Components/AlignmentMatrixControl Default 1`] = `
   >
     <span
       className="emotion-2 emotion-3"
-      id="alignment-matrix-control-0-center left"
+      id="alignment-matrix-control-0-center-left"
+      onBlur={[Function]}
       onClick={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
       onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       role="gridcell"
       tabIndex={-1}
     >
@@ -206,16 +209,18 @@ exports[`Storyshots Components/AlignmentMatrixControl Default 1`] = `
       />
     </span>
     <span
-      aria-selected={true}
       className="emotion-2 emotion-3"
-      id="alignment-matrix-control-0-center center"
+      id="alignment-matrix-control-0-center-center"
+      onBlur={[Function]}
       onClick={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
       onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       role="gridcell"
-      tabIndex={-1}
+      tabIndex={0}
     >
       <div
         className="components-visually-hidden"
@@ -229,12 +234,15 @@ exports[`Storyshots Components/AlignmentMatrixControl Default 1`] = `
     </span>
     <span
       className="emotion-2 emotion-3"
-      id="alignment-matrix-control-0-center right"
+      id="alignment-matrix-control-0-center-right"
+      onBlur={[Function]}
       onClick={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
       onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       role="gridcell"
       tabIndex={-1}
     >
@@ -256,12 +264,15 @@ exports[`Storyshots Components/AlignmentMatrixControl Default 1`] = `
   >
     <span
       className="emotion-2 emotion-3"
-      id="alignment-matrix-control-0-bottom left"
+      id="alignment-matrix-control-0-bottom-left"
+      onBlur={[Function]}
       onClick={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
       onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       role="gridcell"
       tabIndex={-1}
     >
@@ -277,12 +288,15 @@ exports[`Storyshots Components/AlignmentMatrixControl Default 1`] = `
     </span>
     <span
       className="emotion-2 emotion-3"
-      id="alignment-matrix-control-0-bottom center"
+      id="alignment-matrix-control-0-bottom-center"
+      onBlur={[Function]}
       onClick={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
       onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       role="gridcell"
       tabIndex={-1}
     >
@@ -298,12 +312,15 @@ exports[`Storyshots Components/AlignmentMatrixControl Default 1`] = `
     </span>
     <span
       className="emotion-2 emotion-3"
-      id="alignment-matrix-control-0-bottom right"
+      id="alignment-matrix-control-0-bottom-right"
+      onBlur={[Function]}
       onClick={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
       onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       role="gridcell"
       tabIndex={-1}
     >
@@ -347,13 +364,19 @@ exports[`Storyshots Components/AlignmentMatrixControl Icon 1`] = `
 }
 
 .emotion-36 {
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  height: 100%;
   width: 100%;
   border-radius: 2px;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat( 3,1fr );
   outline: none;
-  grid-template-rows: repeat( 3,calc( 24px / 3));
+  grid-template-rows: repeat( 3,calc( 22px / 3));
+  padding: 2px;
+  max-height: 24px;
   max-width: 24px;
   pointer-events: none;
 }
@@ -397,8 +420,8 @@ exports[`Storyshots Components/AlignmentMatrixControl Icon 1`] = `
   transition: all 120ms linear;
   box-shadow: 0 0 0 2px #000;
   color: #000;
-  box-shadow: 0 0 0 1px #007cba;
-  color: #007cba;
+  box-shadow: 0 0 0 1px currentColor;
+  color: currentColor;
 }
 
 @media ( prefers-reduced-motion:reduce ) {
@@ -413,13 +436,18 @@ exports[`Storyshots Components/AlignmentMatrixControl Icon 1`] = `
 }
 
 *:hover > .emotion-16 {
-  color: #007cba;
+  color: currentColor;
 }
 
 <div
   className="component-alignment-matrix-control-icon emotion-36 emotion-37"
   role="presentation"
   size={24}
+  style={
+    Object {
+      "transform": "scale(1.00)",
+    }
+  }
 >
   <span
     className="emotion-2 emotion-3"

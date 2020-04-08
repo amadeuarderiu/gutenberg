@@ -312,11 +312,11 @@ exports[`Storyshots Components/BaseControl Default 1`] = `
 `;
 
 exports[`Storyshots Components/BoxControl Default 1`] = `
-.emotion-70 {
-  max-width: 400px;
+.emotion-116 {
+  max-width: 300px;
 }
 
-.emotion-41 {
+.emotion-3 {
   box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
@@ -333,128 +333,21 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
   margin-bottom: 8px;
 }
 
-.emotion-41 > * {
+.emotion-3 > * {
   padding-right: 8px;
 }
 
-.emotion-41 > *:last-child {
+.emotion-3 > *:last-child {
   padding-right: 0;
 }
 
 .emotion-0 {
+  box-sizing: border-box;
   min-width: 0;
   max-width: 100%;
 }
 
-.emotion-12 {
-  box-sizing: border-box;
-  display: block;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  padding: 4px;
-}
-
-.emotion-10 {
-  box-sizing: border-box;
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.emotion-2 {
-  box-sizing: border-box;
-  display: block;
-  pointer-events: none;
-  position: absolute;
-  background-color: #000;
-  opacity: 1;
-  height: 2px;
-  left: 3px;
-  right: 3px;
-  top: 0;
-}
-
-.emotion-4 {
-  box-sizing: border-box;
-  display: block;
-  pointer-events: none;
-  position: absolute;
-  background-color: #000;
-  opacity: 1;
-  bottom: 3px;
-  top: 3px;
-  width: 2px;
-  right: 0;
-}
-
-.emotion-6 {
-  box-sizing: border-box;
-  display: block;
-  pointer-events: none;
-  position: absolute;
-  background-color: #000;
-  opacity: 1;
-  height: 2px;
-  left: 3px;
-  right: 3px;
-  bottom: 0;
-}
-
-.emotion-8 {
-  box-sizing: border-box;
-  display: block;
-  pointer-events: none;
-  position: absolute;
-  background-color: #000;
-  opacity: 1;
-  bottom: 3px;
-  top: 3px;
-  width: 2px;
-  left: 0;
-}
-
-.emotion-16 {
-  box-sizing: border-box;
-  display: block;
-  pointer-events: none;
-  position: absolute;
-  background-color: #000;
-  opacity: 0.3;
-  bottom: 3px;
-  top: 3px;
-  width: 2px;
-  right: 0;
-}
-
-.emotion-20 {
-  box-sizing: border-box;
-  display: block;
-  pointer-events: none;
-  position: absolute;
-  background-color: #000;
-  opacity: 0.3;
-  bottom: 3px;
-  top: 3px;
-  width: 2px;
-  left: 0;
-}
-
-.emotion-30 {
-  box-sizing: border-box;
-  display: block;
-  pointer-events: none;
-  position: absolute;
-  background-color: #000;
-  opacity: 0.3;
-  height: 2px;
-  left: 3px;
-  right: 3px;
-  bottom: 0;
-}
-
-.emotion-68 {
+.emotion-114 {
   box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
@@ -464,45 +357,147 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 120px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 16px;
 }
 
-.emotion-68 > * {
-  padding-right: 4px;
-}
-
-.emotion-68 > *:last-child {
-  padding-right: 0;
-}
-
-.emotion-56 {
-  min-width: 0;
-  max-width: 100%;
+.emotion-114 > * {
   padding-right: 8px;
 }
 
-.emotion-66 {
-  min-width: 0;
-  max-width: 100%;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+.emotion-114 > *:last-child {
+  padding-right: 0;
 }
 
-.emotion-64 {
+.emotion-111 {
+  box-sizing: border-box;
+  position: relative;
+  height: 120px;
+  width: 200px;
+}
+
+.emotion-5 {
+  height: 50%;
+  border-left: 1px dashed #d7dade;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.emotion-9 {
+  position: absolute;
+  box-sizing: border-box;
+  top: 12px;
+  bottom: 12px;
+  left: 30px;
+  right: 30px;
+  pointer-events: none;
+  border: 1px solid #d7dade;
+}
+
+.emotion-29 {
   box-sizing: border-box;
   max-width: 75px;
 }
 
-.emotion-62 {
+.emotion-27 {
   box-sizing: border-box;
   position: relative;
 }
 
-.emotion-58.emotion-58.emotion-58 {
+.emotion-25 {
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 2px;
+  padding-top: 5px;
+}
+
+.emotion-11 {
+  box-sizing: border-box;
+  display: block;
+  top: 50%;
+  -webkit-transition: -webkit-transform 50ms linear;
+  -webkit-transition: transform 50ms linear;
+  transition: transform 50ms linear;
+  z-index: 1;
+  color: #a2aab2;
+  font-size: 11px;
+  line-height: 1;
+  margin-top: 0;
+  padding-bottom: 0;
+  position: absolute;
+  -webkit-transition: -webkit-transform 50ms linear;
+  -webkit-transition: transform 50ms linear;
+  transition: transform 50ms linear;
+  -webkit-transform: translate( 0,calc(-100% + -2px) ) scale( 0.75 );
+  -ms-transform: translate( 0,calc(-100% + -2px) ) scale( 0.75 );
+  transform: translate( 0,calc(-100% + -2px) ) scale( 0.75 );
+  margin-left: 8px;
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  left: 0;
+}
+
+@media ( prefers-reduced-motion:reduce ) {
+  .emotion-11 {
+    -webkit-transition-duration: 0ms;
+    transition-duration: 0ms;
+  }
+}
+
+.emotion-23 {
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 2px;
+}
+
+.emotion-15.emotion-15.emotion-15 {
+  box-sizing: border-box;
+  border: none !important;
+  box-shadow: none !important;
+  display: block;
+  outline: none;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  width: 100%;
+  font-size: 16px;
+  height: 24px;
+  line-height: 24;
+  min-height: 24px;
+}
+
+@media ( min-width:600px ) {
+  .emotion-15.emotion-15.emotion-15 {
+    font-size: 11px;
+  }
+}
+
+.emotion-15.emotion-15.emotion-15::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.emotion-15.emotion-15.emotion-15::-moz-placeholder {
+  opacity: 1;
+}
+
+.emotion-15.emotion-15.emotion-15:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.emotion-15.emotion-15.emotion-15::placeholder {
+  opacity: 1;
+}
+
+.emotion-15.emotion-15.emotion-15 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -512,280 +507,434 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
   padding: 3px 8px;
   display: block;
   width: 100%;
-  padding-right: 20px;
-  height: 30px;
-  line-height: 30;
-  min-height: 30px;
+  padding-right: 3px;
 }
 
-.emotion-58.emotion-58.emotion-58::-webkit-outer-spin-button,
-.emotion-58.emotion-58.emotion-58::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-.emotion-60.emotion-60.emotion-60 {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: #fff;
-  border-radius: 2px;
-  border: none;
+.emotion-21 {
   box-sizing: border-box;
-  color: #555d66;
-  display: block;
-  font-size: 8px;
-  line-height: 1;
-  -webkit-letter-spacing: -0.5px;
-  -moz-letter-spacing: -0.5px;
-  -ms-letter-spacing: -0.5px;
-  letter-spacing: -0.5px;
-  outline: none;
-  padding: 2px 2px;
+  border-color: black;
+  border-radius: inherit;
+  border-style: solid;
+  border-width: 1px;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
   position: absolute;
-  text-align-last: center;
-  text-transform: uppercase;
-  width: 22px;
-  z-index: 1;
-  right: 4px;
-  top: 5px;
-  height: 20px;
-  min-height: 20px;
-  padding: 6px 2px;
+  right: 0;
+  border-color: #000;
+  border-width: 1px;
+  top: -5px;
+  padding-left: 2px;
+}
+
+.emotion-19 {
+  box-sizing: border-box;
+  width: auto;
+  height: 11px;
+  display: block;
+  padding: 0;
+  font-size: 0.75em;
+  -webkit-transition: max-width 50ms linear;
+  transition: max-width 50ms linear;
+  visibility: hidden;
+  max-width: 1000px;
+}
+
+@media ( prefers-reduced-motion:reduce ) {
+  .emotion-19 {
+    -webkit-transition-duration: 0ms;
+    transition-duration: 0ms;
+  }
+}
+
+.emotion-17 {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 <div
-  className="emotion-70 emotion-71"
+  className="emotion-116 emotion-117"
 >
   <div
-    className="components-flex emotion-40 emotion-41 emotion-42"
+    className="components-flex emotion-2 emotion-3 emotion-4"
   >
     <div
       className="components-flex__item emotion-0 emotion-1"
     >
       Box Control
     </div>
-    <div
-      className="components-flex__item emotion-0 emotion-1"
-    >
-      <div
-        aria-label="Box Control"
-        className="components-button-group"
-        id="id-ge7rai"
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        role="radiogroup"
-      >
-        <button
-          aria-checked={true}
-          checked={true}
-          className="components-button is-primary"
-          id="id-ge7rai-1"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          onMouseDown={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          role="radio"
-          tabIndex={-1}
-          type="radio"
-          value="all"
-        >
-          <span
-            className="emotion-12 emotion-13"
-            style={
-              Object {
-                "transform": "scale(1)",
-              }
-            }
-          >
-            <span
-              className="emotion-10 emotion-11"
-            >
-              <span
-                className="emotion-2 emotion-3"
-              />
-              <span
-                className="emotion-4 emotion-5"
-              />
-              <span
-                className="emotion-6 emotion-7"
-              />
-              <span
-                className="emotion-8 emotion-9"
-              />
-            </span>
-          </span>
-        </button>
-        <button
-          aria-checked={false}
-          checked={false}
-          className="components-button"
-          id="id-ge7rai-2"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          onMouseDown={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          role="radio"
-          tabIndex={-1}
-          type="radio"
-          value="pairs"
-        >
-          <span
-            className="emotion-12 emotion-13"
-            style={
-              Object {
-                "transform": "scale(1)",
-              }
-            }
-          >
-            <span
-              className="emotion-10 emotion-11"
-            >
-              <span
-                className="emotion-2 emotion-3"
-              />
-              <span
-                className="emotion-16 emotion-5"
-              />
-              <span
-                className="emotion-6 emotion-7"
-              />
-              <span
-                className="emotion-20 emotion-9"
-              />
-            </span>
-          </span>
-        </button>
-        <button
-          aria-checked={false}
-          checked={false}
-          className="components-button"
-          id="id-ge7rai-3"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          onMouseDown={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          role="radio"
-          tabIndex={-1}
-          type="radio"
-          value="custom"
-        >
-          <span
-            className="emotion-12 emotion-13"
-            style={
-              Object {
-                "transform": "scale(1)",
-              }
-            }
-          >
-            <span
-              className="emotion-10 emotion-11"
-            >
-              <span
-                className="emotion-2 emotion-3"
-              />
-              <span
-                className="emotion-16 emotion-5"
-              />
-              <span
-                className="emotion-30 emotion-7"
-              />
-              <span
-                className="emotion-20 emotion-9"
-              />
-            </span>
-          </span>
-        </button>
-      </div>
-    </div>
   </div>
   <div
-    className="components-flex emotion-68 emotion-42"
+    className="components-flex emotion-113 emotion-114 emotion-4"
   >
     <div
-      className="components-flex__item emotion-55 emotion-56 emotion-1"
-    >
-      <span
-        className="emotion-12 emotion-13"
-        style={
-          Object {
-            "transform": "scale(1)",
-          }
-        }
-      >
-        <span
-          className="emotion-10 emotion-11"
-        >
-          <span
-            className="emotion-2 emotion-3"
-          />
-          <span
-            className="emotion-4 emotion-5"
-          />
-          <span
-            className="emotion-6 emotion-7"
-          />
-          <span
-            className="emotion-8 emotion-9"
-          />
-        </span>
-      </span>
-    </div>
-    <div
-      className="components-flex__block emotion-66 emotion-67"
+      className="emotion-111 emotion-112"
     >
       <div
-        aria-label="All Sides"
-        className="emotion-64 emotion-65"
-        onBlur={[Function]}
-        onClick={[Function]}
-        onFocus={[Function]}
-        onMouseDown={[Function]}
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
+        className="emotion-5 emotion-6"
+        style={
+          Object {
+            "left": "50%",
+            "top": "50%",
+            "transform": "translate(0, -30px)",
+          }
+        }
+      />
+      <div
+        className="emotion-5 emotion-6"
+        style={
+          Object {
+            "height": "75%",
+            "left": "50%",
+            "top": "0%",
+            "transform": "rotate(-90deg) translate(-15px, 0px)",
+          }
+        }
+      />
+      <div
+        className="emotion-9 emotion-10"
+      />
+      <div
+        aria-label="Top"
+        className="emotion-29 emotion-30"
       >
         <div
-          className="component-unit-control emotion-62 emotion-63"
-        >
-          <input
-            className="component-number-control component-unit-control__input emotion-58 emotion-59"
-            inputMode="numeric"
-            onChange={[Function]}
-            onKeyDown={[Function]}
-            onMouseDown={[Function]}
-            onTouchStart={[Function]}
-            placeholder="Mixed"
-            size="default"
-            style={
-              Object {
-                "cursor": undefined,
-                "userSelect": undefined,
-              }
+          className="component-unit-control emotion-27 emotion-28"
+          style={
+            Object {
+              "left": "50%",
+              "maxWidth": 60,
+              "position": "absolute",
+              "top": -5,
+              "transform": "translateX(-50%)",
+              "zIndex": 1,
             }
-            type="number"
-            value={0}
-          />
+          }
+        >
           <div
-            className="emotion-60 emotion-61"
-            size="default"
+            className="emotion-25 emotion-26"
           >
-            px
+            <label
+              className="emotion-11 emotion-12"
+              htmlFor="inspector-input-control-0"
+              size="small"
+            >
+              Top
+            </label>
+            <div
+              className="emotion-23 emotion-24"
+            >
+              <input
+                aria-label="Top"
+                className="component-input-control component-number-control component-unit-control__input emotion-13 emotion-14 emotion-15 emotion-16"
+                id="inspector-input-control-0"
+                inputMode="numeric"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                onTouchStart={[Function]}
+                size="small"
+                style={
+                  Object {
+                    "cursor": undefined,
+                    "userSelect": undefined,
+                  }
+                }
+                type="number"
+                value={0}
+              />
+              <fieldset
+                className="emotion-21 emotion-22"
+              >
+                <legend
+                  className="emotion-19 emotion-20"
+                >
+                  <span
+                    className="emotion-17 emotion-18"
+                  >
+                    Top
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-label="Right"
+        className="emotion-29 emotion-30"
+      >
+        <div
+          className="component-unit-control emotion-27 emotion-28"
+          style={
+            Object {
+              "maxWidth": 60,
+              "position": "absolute",
+              "right": 0,
+              "top": "50%",
+              "transform": "translateY(calc(-50% - 3px))",
+              "zIndex": 1,
+            }
+          }
+        >
+          <div
+            className="emotion-25 emotion-26"
+          >
+            <label
+              className="emotion-11 emotion-12"
+              htmlFor="inspector-input-control-1"
+              size="small"
+            >
+              Right
+            </label>
+            <div
+              className="emotion-23 emotion-24"
+            >
+              <input
+                aria-label="Right"
+                className="component-input-control component-number-control component-unit-control__input emotion-13 emotion-14 emotion-15 emotion-16"
+                id="inspector-input-control-1"
+                inputMode="numeric"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                onTouchStart={[Function]}
+                size="small"
+                style={
+                  Object {
+                    "cursor": undefined,
+                    "userSelect": undefined,
+                  }
+                }
+                type="number"
+                value={0}
+              />
+              <fieldset
+                className="emotion-21 emotion-22"
+              >
+                <legend
+                  className="emotion-19 emotion-20"
+                >
+                  <span
+                    className="emotion-17 emotion-18"
+                  >
+                    Right
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-label="Bottom"
+        className="emotion-29 emotion-30"
+      >
+        <div
+          className="component-unit-control emotion-27 emotion-28"
+          style={
+            Object {
+              "bottom": 0,
+              "left": "50%",
+              "maxWidth": 60,
+              "position": "absolute",
+              "transform": "translateX(-50%)",
+              "zIndex": 1,
+            }
+          }
+        >
+          <div
+            className="emotion-25 emotion-26"
+          >
+            <label
+              className="emotion-11 emotion-12"
+              htmlFor="inspector-input-control-2"
+              size="small"
+            >
+              Bottom
+            </label>
+            <div
+              className="emotion-23 emotion-24"
+            >
+              <input
+                aria-label="Bottom"
+                className="component-input-control component-number-control component-unit-control__input emotion-13 emotion-14 emotion-15 emotion-16"
+                id="inspector-input-control-2"
+                inputMode="numeric"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                onTouchStart={[Function]}
+                size="small"
+                style={
+                  Object {
+                    "cursor": undefined,
+                    "userSelect": undefined,
+                  }
+                }
+                type="number"
+                value={0}
+              />
+              <fieldset
+                className="emotion-21 emotion-22"
+              >
+                <legend
+                  className="emotion-19 emotion-20"
+                >
+                  <span
+                    className="emotion-17 emotion-18"
+                  >
+                    Bottom
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-label="Left"
+        className="emotion-29 emotion-30"
+      >
+        <div
+          className="component-unit-control emotion-27 emotion-28"
+          style={
+            Object {
+              "left": 0,
+              "maxWidth": 60,
+              "position": "absolute",
+              "top": "50%",
+              "transform": "translateY(calc(-50% - 3px))",
+              "zIndex": 1,
+            }
+          }
+        >
+          <div
+            className="emotion-25 emotion-26"
+          >
+            <label
+              className="emotion-11 emotion-12"
+              htmlFor="inspector-input-control-3"
+              size="small"
+            >
+              Left
+            </label>
+            <div
+              className="emotion-23 emotion-24"
+            >
+              <input
+                aria-label="Left"
+                className="component-input-control component-number-control component-unit-control__input emotion-13 emotion-14 emotion-15 emotion-16"
+                id="inspector-input-control-3"
+                inputMode="numeric"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                onTouchStart={[Function]}
+                size="small"
+                style={
+                  Object {
+                    "cursor": undefined,
+                    "userSelect": undefined,
+                  }
+                }
+                type="number"
+                value={0}
+              />
+              <fieldset
+                className="emotion-21 emotion-22"
+              >
+                <legend
+                  className="emotion-19 emotion-20"
+                >
+                  <span
+                    className="emotion-17 emotion-18"
+                  >
+                    Left
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-label="All"
+        className="emotion-29 emotion-30"
+      >
+        <div
+          className="component-unit-control emotion-27 emotion-28"
+          style={
+            Object {
+              "left": "50%",
+              "maxWidth": 60,
+              "position": "absolute",
+              "top": "50%",
+              "transform": "translate(-50%, calc(-50% - 3px))",
+              "zIndex": 1,
+            }
+          }
+        >
+          <div
+            className="emotion-25 emotion-26"
+          >
+            <label
+              className="emotion-11 emotion-12"
+              htmlFor="inspector-input-control-4"
+              size="small"
+            >
+              All
+            </label>
+            <div
+              className="emotion-23 emotion-24"
+            >
+              <input
+                aria-label="All"
+                className="component-input-control component-number-control component-unit-control__input emotion-13 emotion-14 emotion-15 emotion-16"
+                id="inspector-input-control-4"
+                inputMode="numeric"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                onTouchStart={[Function]}
+                size="small"
+                style={
+                  Object {
+                    "cursor": undefined,
+                    "userSelect": undefined,
+                  }
+                }
+                type="number"
+                value={0}
+              />
+              <fieldset
+                className="emotion-21 emotion-22"
+              >
+                <legend
+                  className="emotion-19 emotion-20"
+                >
+                  <span
+                    className="emotion-17 emotion-18"
+                  >
+                    All
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
           </div>
         </div>
       </div>
@@ -795,11 +944,11 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
 `;
 
 exports[`Storyshots Components/BoxControl Demo 1`] = `
-.emotion-70 {
-  max-width: 400px;
+.emotion-116 {
+  max-width: 300px;
 }
 
-.emotion-41 {
+.emotion-3 {
   box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
@@ -816,128 +965,21 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
   margin-bottom: 8px;
 }
 
-.emotion-41 > * {
+.emotion-3 > * {
   padding-right: 8px;
 }
 
-.emotion-41 > *:last-child {
+.emotion-3 > *:last-child {
   padding-right: 0;
 }
 
 .emotion-0 {
+  box-sizing: border-box;
   min-width: 0;
   max-width: 100%;
 }
 
-.emotion-12 {
-  box-sizing: border-box;
-  display: block;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  padding: 4px;
-}
-
-.emotion-10 {
-  box-sizing: border-box;
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.emotion-2 {
-  box-sizing: border-box;
-  display: block;
-  pointer-events: none;
-  position: absolute;
-  background-color: #000;
-  opacity: 1;
-  height: 2px;
-  left: 3px;
-  right: 3px;
-  top: 0;
-}
-
-.emotion-4 {
-  box-sizing: border-box;
-  display: block;
-  pointer-events: none;
-  position: absolute;
-  background-color: #000;
-  opacity: 1;
-  bottom: 3px;
-  top: 3px;
-  width: 2px;
-  right: 0;
-}
-
-.emotion-6 {
-  box-sizing: border-box;
-  display: block;
-  pointer-events: none;
-  position: absolute;
-  background-color: #000;
-  opacity: 1;
-  height: 2px;
-  left: 3px;
-  right: 3px;
-  bottom: 0;
-}
-
-.emotion-8 {
-  box-sizing: border-box;
-  display: block;
-  pointer-events: none;
-  position: absolute;
-  background-color: #000;
-  opacity: 1;
-  bottom: 3px;
-  top: 3px;
-  width: 2px;
-  left: 0;
-}
-
-.emotion-16 {
-  box-sizing: border-box;
-  display: block;
-  pointer-events: none;
-  position: absolute;
-  background-color: #000;
-  opacity: 0.3;
-  bottom: 3px;
-  top: 3px;
-  width: 2px;
-  right: 0;
-}
-
-.emotion-20 {
-  box-sizing: border-box;
-  display: block;
-  pointer-events: none;
-  position: absolute;
-  background-color: #000;
-  opacity: 0.3;
-  bottom: 3px;
-  top: 3px;
-  width: 2px;
-  left: 0;
-}
-
-.emotion-30 {
-  box-sizing: border-box;
-  display: block;
-  pointer-events: none;
-  position: absolute;
-  background-color: #000;
-  opacity: 0.3;
-  height: 2px;
-  left: 3px;
-  right: 3px;
-  bottom: 0;
-}
-
-.emotion-68 {
+.emotion-114 {
   box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
@@ -947,45 +989,147 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 120px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 16px;
 }
 
-.emotion-68 > * {
-  padding-right: 4px;
-}
-
-.emotion-68 > *:last-child {
-  padding-right: 0;
-}
-
-.emotion-56 {
-  min-width: 0;
-  max-width: 100%;
+.emotion-114 > * {
   padding-right: 8px;
 }
 
-.emotion-66 {
-  min-width: 0;
-  max-width: 100%;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+.emotion-114 > *:last-child {
+  padding-right: 0;
 }
 
-.emotion-64 {
+.emotion-111 {
+  box-sizing: border-box;
+  position: relative;
+  height: 120px;
+  width: 200px;
+}
+
+.emotion-5 {
+  height: 50%;
+  border-left: 1px dashed #d7dade;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.emotion-9 {
+  position: absolute;
+  box-sizing: border-box;
+  top: 12px;
+  bottom: 12px;
+  left: 30px;
+  right: 30px;
+  pointer-events: none;
+  border: 1px solid #d7dade;
+}
+
+.emotion-29 {
   box-sizing: border-box;
   max-width: 75px;
 }
 
-.emotion-62 {
+.emotion-27 {
   box-sizing: border-box;
   position: relative;
 }
 
-.emotion-58.emotion-58.emotion-58 {
+.emotion-25 {
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 2px;
+  padding-top: 5px;
+}
+
+.emotion-11 {
+  box-sizing: border-box;
+  display: block;
+  top: 50%;
+  -webkit-transition: -webkit-transform 50ms linear;
+  -webkit-transition: transform 50ms linear;
+  transition: transform 50ms linear;
+  z-index: 1;
+  color: #a2aab2;
+  font-size: 11px;
+  line-height: 1;
+  margin-top: 0;
+  padding-bottom: 0;
+  position: absolute;
+  -webkit-transition: -webkit-transform 50ms linear;
+  -webkit-transition: transform 50ms linear;
+  transition: transform 50ms linear;
+  -webkit-transform: translate( 0,calc(-100% + -2px) ) scale( 0.75 );
+  -ms-transform: translate( 0,calc(-100% + -2px) ) scale( 0.75 );
+  transform: translate( 0,calc(-100% + -2px) ) scale( 0.75 );
+  margin-left: 8px;
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  left: 0;
+}
+
+@media ( prefers-reduced-motion:reduce ) {
+  .emotion-11 {
+    -webkit-transition-duration: 0ms;
+    transition-duration: 0ms;
+  }
+}
+
+.emotion-23 {
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 2px;
+}
+
+.emotion-15.emotion-15.emotion-15 {
+  box-sizing: border-box;
+  border: none !important;
+  box-shadow: none !important;
+  display: block;
+  outline: none;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  width: 100%;
+  font-size: 16px;
+  height: 24px;
+  line-height: 24;
+  min-height: 24px;
+}
+
+@media ( min-width:600px ) {
+  .emotion-15.emotion-15.emotion-15 {
+    font-size: 11px;
+  }
+}
+
+.emotion-15.emotion-15.emotion-15::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.emotion-15.emotion-15.emotion-15::-moz-placeholder {
+  opacity: 1;
+}
+
+.emotion-15.emotion-15.emotion-15:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.emotion-15.emotion-15.emotion-15::placeholder {
+  opacity: 1;
+}
+
+.emotion-15.emotion-15.emotion-15 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -995,49 +1139,56 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
   padding: 3px 8px;
   display: block;
   width: 100%;
-  padding-right: 20px;
-  height: 30px;
-  line-height: 30;
-  min-height: 30px;
+  padding-right: 3px;
 }
 
-.emotion-58.emotion-58.emotion-58::-webkit-outer-spin-button,
-.emotion-58.emotion-58.emotion-58::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-.emotion-60.emotion-60.emotion-60 {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: #fff;
-  border-radius: 2px;
-  border: none;
+.emotion-21 {
   box-sizing: border-box;
-  color: #555d66;
-  display: block;
-  font-size: 8px;
-  line-height: 1;
-  -webkit-letter-spacing: -0.5px;
-  -moz-letter-spacing: -0.5px;
-  -ms-letter-spacing: -0.5px;
-  letter-spacing: -0.5px;
-  outline: none;
-  padding: 2px 2px;
+  border-color: black;
+  border-radius: inherit;
+  border-style: solid;
+  border-width: 1px;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
   position: absolute;
-  text-align-last: center;
-  text-transform: uppercase;
-  width: 22px;
-  z-index: 1;
-  right: 4px;
-  top: 5px;
-  height: 20px;
-  min-height: 20px;
-  padding: 6px 2px;
+  right: 0;
+  border-color: #000;
+  border-width: 1px;
+  top: -5px;
+  padding-left: 2px;
 }
 
-.emotion-91 {
+.emotion-19 {
+  box-sizing: border-box;
+  width: auto;
+  height: 11px;
+  display: block;
+  padding: 0;
+  font-size: 0.75em;
+  -webkit-transition: max-width 50ms linear;
+  transition: max-width 50ms linear;
+  visibility: hidden;
+  max-width: 1000px;
+}
+
+@media ( prefers-reduced-motion:reduce ) {
+  .emotion-19 {
+    -webkit-transition-duration: 0ms;
+    transition-duration: 0ms;
+  }
+}
+
+.emotion-17 {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.emotion-141 {
   box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1054,271 +1205,494 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
   max-width: 780px;
 }
 
-.emotion-91 > * {
+.emotion-141 > * {
   padding-right: 32px;
 }
 
-.emotion-91 > *:last-child {
+.emotion-141 > *:last-child {
   padding-right: 0;
 }
 
-.emotion-72 {
+.emotion-120 {
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-118 {
   padding: 20px;
 }
 
-.emotion-84 {
+.emotion-134 {
   width: 300px;
   height: 300px;
+}
+
+.emotion-132 {
+  box-sizing: border-box;
   position: relative;
 }
 
-.emotion-76 {
+.emotion-122 {
+  box-sizing: border-box;
+  background: #00669b;
+  -webkit-filter: brightness( 1 );
+  filter: brightness( 1 );
+  opacity: 0;
   position: absolute;
-  background: blue;
-  opacity: 0.2;
+  pointer-events: none;
+  -webkit-transition: opacity 120ms linear;
+  transition: opacity 120ms linear;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.emotion-124 {
+  box-sizing: border-box;
+  background: #00669b;
+  -webkit-filter: brightness( 1 );
+  filter: brightness( 1 );
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  -webkit-transition: opacity 120ms linear;
+  transition: opacity 120ms linear;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.emotion-126 {
+  box-sizing: border-box;
+  background: #00669b;
+  -webkit-filter: brightness( 1 );
+  filter: brightness( 1 );
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  -webkit-transition: opacity 120ms linear;
+  transition: opacity 120ms linear;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.emotion-128 {
+  box-sizing: border-box;
+  background: #00669b;
+  -webkit-filter: brightness( 1 );
+  filter: brightness( 1 );
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  -webkit-transition: opacity 120ms linear;
+  transition: opacity 120ms linear;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.emotion-130 {
+  background: #ddd;
+  height: 300px;
 }
 
 <div
-  className="components-flex emotion-90 emotion-91 emotion-42"
+  className="components-flex emotion-140 emotion-141 emotion-4"
 >
   <div
-    className="components-flex__block emotion-66 emotion-67"
+    className="components-flex__block emotion-120 emotion-121"
   >
     <div
-      className="emotion-72 emotion-73"
+      className="emotion-118 emotion-119"
     >
       <div
-        className="emotion-70 emotion-71"
+        className="emotion-116 emotion-117"
       >
         <div
-          className="components-flex emotion-40 emotion-41 emotion-42"
+          className="components-flex emotion-2 emotion-3 emotion-4"
         >
           <div
             className="components-flex__item emotion-0 emotion-1"
           >
             Padding
           </div>
-          <div
-            className="components-flex__item emotion-0 emotion-1"
-          >
-            <div
-              aria-label="Padding"
-              className="components-button-group"
-              id="id-g5gin4"
-              onFocus={[Function]}
-              onKeyDown={[Function]}
-              onKeyUp={[Function]}
-              role="radiogroup"
-            >
-              <button
-                aria-checked={true}
-                checked={true}
-                className="components-button is-primary"
-                id="id-g5gin4-1"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onClick={[Function]}
-                onFocus={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                role="radio"
-                tabIndex={-1}
-                type="radio"
-                value="all"
-              >
-                <span
-                  className="emotion-12 emotion-13"
-                  style={
-                    Object {
-                      "transform": "scale(1)",
-                    }
-                  }
-                >
-                  <span
-                    className="emotion-10 emotion-11"
-                  >
-                    <span
-                      className="emotion-2 emotion-3"
-                    />
-                    <span
-                      className="emotion-4 emotion-5"
-                    />
-                    <span
-                      className="emotion-6 emotion-7"
-                    />
-                    <span
-                      className="emotion-8 emotion-9"
-                    />
-                  </span>
-                </span>
-              </button>
-              <button
-                aria-checked={false}
-                checked={false}
-                className="components-button"
-                id="id-g5gin4-2"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onClick={[Function]}
-                onFocus={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                role="radio"
-                tabIndex={-1}
-                type="radio"
-                value="pairs"
-              >
-                <span
-                  className="emotion-12 emotion-13"
-                  style={
-                    Object {
-                      "transform": "scale(1)",
-                    }
-                  }
-                >
-                  <span
-                    className="emotion-10 emotion-11"
-                  >
-                    <span
-                      className="emotion-2 emotion-3"
-                    />
-                    <span
-                      className="emotion-16 emotion-5"
-                    />
-                    <span
-                      className="emotion-6 emotion-7"
-                    />
-                    <span
-                      className="emotion-20 emotion-9"
-                    />
-                  </span>
-                </span>
-              </button>
-              <button
-                aria-checked={false}
-                checked={false}
-                className="components-button"
-                id="id-g5gin4-3"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onClick={[Function]}
-                onFocus={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                role="radio"
-                tabIndex={-1}
-                type="radio"
-                value="custom"
-              >
-                <span
-                  className="emotion-12 emotion-13"
-                  style={
-                    Object {
-                      "transform": "scale(1)",
-                    }
-                  }
-                >
-                  <span
-                    className="emotion-10 emotion-11"
-                  >
-                    <span
-                      className="emotion-2 emotion-3"
-                    />
-                    <span
-                      className="emotion-16 emotion-5"
-                    />
-                    <span
-                      className="emotion-30 emotion-7"
-                    />
-                    <span
-                      className="emotion-20 emotion-9"
-                    />
-                  </span>
-                </span>
-              </button>
-            </div>
-          </div>
         </div>
         <div
-          className="components-flex emotion-68 emotion-42"
+          className="components-flex emotion-113 emotion-114 emotion-4"
         >
           <div
-            className="components-flex__item emotion-55 emotion-56 emotion-1"
-          >
-            <span
-              className="emotion-12 emotion-13"
-              style={
-                Object {
-                  "transform": "scale(1)",
-                }
-              }
-            >
-              <span
-                className="emotion-10 emotion-11"
-              >
-                <span
-                  className="emotion-2 emotion-3"
-                />
-                <span
-                  className="emotion-4 emotion-5"
-                />
-                <span
-                  className="emotion-6 emotion-7"
-                />
-                <span
-                  className="emotion-8 emotion-9"
-                />
-              </span>
-            </span>
-          </div>
-          <div
-            className="components-flex__block emotion-66 emotion-67"
+            className="emotion-111 emotion-112"
           >
             <div
-              aria-label="All Sides"
-              className="emotion-64 emotion-65"
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              onMouseDown={[Function]}
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              className="emotion-5 emotion-6"
+              style={
+                Object {
+                  "left": "50%",
+                  "top": "50%",
+                  "transform": "translate(0, -30px)",
+                }
+              }
+            />
+            <div
+              className="emotion-5 emotion-6"
+              style={
+                Object {
+                  "height": "75%",
+                  "left": "50%",
+                  "top": "0%",
+                  "transform": "rotate(-90deg) translate(-15px, 0px)",
+                }
+              }
+            />
+            <div
+              className="emotion-9 emotion-10"
+            />
+            <div
+              aria-label="Top"
+              className="emotion-29 emotion-30"
             >
               <div
-                className="component-unit-control emotion-62 emotion-63"
-              >
-                <input
-                  className="component-number-control component-unit-control__input emotion-58 emotion-59"
-                  inputMode="numeric"
-                  onChange={[Function]}
-                  onKeyDown={[Function]}
-                  onMouseDown={[Function]}
-                  onTouchStart={[Function]}
-                  placeholder="Mixed"
-                  size="default"
-                  style={
-                    Object {
-                      "cursor": undefined,
-                      "userSelect": undefined,
-                    }
+                className="component-unit-control emotion-27 emotion-28"
+                style={
+                  Object {
+                    "left": "50%",
+                    "maxWidth": 60,
+                    "position": "absolute",
+                    "top": -5,
+                    "transform": "translateX(-50%)",
+                    "zIndex": 1,
                   }
-                  type="number"
-                  value={10}
-                />
+                }
+              >
                 <div
-                  className="emotion-60 emotion-61"
-                  size="default"
+                  className="emotion-25 emotion-26"
                 >
-                  px
+                  <label
+                    className="emotion-11 emotion-12"
+                    htmlFor="inspector-input-control-5"
+                    size="small"
+                  >
+                    Top
+                  </label>
+                  <div
+                    className="emotion-23 emotion-24"
+                  >
+                    <input
+                      aria-label="Top"
+                      className="component-input-control component-number-control component-unit-control__input emotion-13 emotion-14 emotion-15 emotion-16"
+                      id="inspector-input-control-5"
+                      inputMode="numeric"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseDown={[Function]}
+                      onTouchStart={[Function]}
+                      size="small"
+                      style={
+                        Object {
+                          "cursor": undefined,
+                          "userSelect": undefined,
+                        }
+                      }
+                      type="number"
+                      value={10}
+                    />
+                    <fieldset
+                      className="emotion-21 emotion-22"
+                    >
+                      <legend
+                        className="emotion-19 emotion-20"
+                      >
+                        <span
+                          className="emotion-17 emotion-18"
+                        >
+                          Top
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-label="Right"
+              className="emotion-29 emotion-30"
+            >
+              <div
+                className="component-unit-control emotion-27 emotion-28"
+                style={
+                  Object {
+                    "maxWidth": 60,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": "50%",
+                    "transform": "translateY(calc(-50% - 3px))",
+                    "zIndex": 1,
+                  }
+                }
+              >
+                <div
+                  className="emotion-25 emotion-26"
+                >
+                  <label
+                    className="emotion-11 emotion-12"
+                    htmlFor="inspector-input-control-6"
+                    size="small"
+                  >
+                    Right
+                  </label>
+                  <div
+                    className="emotion-23 emotion-24"
+                  >
+                    <input
+                      aria-label="Right"
+                      className="component-input-control component-number-control component-unit-control__input emotion-13 emotion-14 emotion-15 emotion-16"
+                      id="inspector-input-control-6"
+                      inputMode="numeric"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseDown={[Function]}
+                      onTouchStart={[Function]}
+                      size="small"
+                      style={
+                        Object {
+                          "cursor": undefined,
+                          "userSelect": undefined,
+                        }
+                      }
+                      type="number"
+                      value={10}
+                    />
+                    <fieldset
+                      className="emotion-21 emotion-22"
+                    >
+                      <legend
+                        className="emotion-19 emotion-20"
+                      >
+                        <span
+                          className="emotion-17 emotion-18"
+                        >
+                          Right
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-label="Bottom"
+              className="emotion-29 emotion-30"
+            >
+              <div
+                className="component-unit-control emotion-27 emotion-28"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": "50%",
+                    "maxWidth": 60,
+                    "position": "absolute",
+                    "transform": "translateX(-50%)",
+                    "zIndex": 1,
+                  }
+                }
+              >
+                <div
+                  className="emotion-25 emotion-26"
+                >
+                  <label
+                    className="emotion-11 emotion-12"
+                    htmlFor="inspector-input-control-7"
+                    size="small"
+                  >
+                    Bottom
+                  </label>
+                  <div
+                    className="emotion-23 emotion-24"
+                  >
+                    <input
+                      aria-label="Bottom"
+                      className="component-input-control component-number-control component-unit-control__input emotion-13 emotion-14 emotion-15 emotion-16"
+                      id="inspector-input-control-7"
+                      inputMode="numeric"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseDown={[Function]}
+                      onTouchStart={[Function]}
+                      size="small"
+                      style={
+                        Object {
+                          "cursor": undefined,
+                          "userSelect": undefined,
+                        }
+                      }
+                      type="number"
+                      value={10}
+                    />
+                    <fieldset
+                      className="emotion-21 emotion-22"
+                    >
+                      <legend
+                        className="emotion-19 emotion-20"
+                      >
+                        <span
+                          className="emotion-17 emotion-18"
+                        >
+                          Bottom
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-label="Left"
+              className="emotion-29 emotion-30"
+            >
+              <div
+                className="component-unit-control emotion-27 emotion-28"
+                style={
+                  Object {
+                    "left": 0,
+                    "maxWidth": 60,
+                    "position": "absolute",
+                    "top": "50%",
+                    "transform": "translateY(calc(-50% - 3px))",
+                    "zIndex": 1,
+                  }
+                }
+              >
+                <div
+                  className="emotion-25 emotion-26"
+                >
+                  <label
+                    className="emotion-11 emotion-12"
+                    htmlFor="inspector-input-control-8"
+                    size="small"
+                  >
+                    Left
+                  </label>
+                  <div
+                    className="emotion-23 emotion-24"
+                  >
+                    <input
+                      aria-label="Left"
+                      className="component-input-control component-number-control component-unit-control__input emotion-13 emotion-14 emotion-15 emotion-16"
+                      id="inspector-input-control-8"
+                      inputMode="numeric"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseDown={[Function]}
+                      onTouchStart={[Function]}
+                      size="small"
+                      style={
+                        Object {
+                          "cursor": undefined,
+                          "userSelect": undefined,
+                        }
+                      }
+                      type="number"
+                      value={10}
+                    />
+                    <fieldset
+                      className="emotion-21 emotion-22"
+                    >
+                      <legend
+                        className="emotion-19 emotion-20"
+                      >
+                        <span
+                          className="emotion-17 emotion-18"
+                        >
+                          Left
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-label="All"
+              className="emotion-29 emotion-30"
+            >
+              <div
+                className="component-unit-control emotion-27 emotion-28"
+                style={
+                  Object {
+                    "left": "50%",
+                    "maxWidth": 60,
+                    "position": "absolute",
+                    "top": "50%",
+                    "transform": "translate(-50%, calc(-50% - 3px))",
+                    "zIndex": 1,
+                  }
+                }
+              >
+                <div
+                  className="emotion-25 emotion-26"
+                >
+                  <label
+                    className="emotion-11 emotion-12"
+                    htmlFor="inspector-input-control-9"
+                    size="small"
+                  >
+                    All
+                  </label>
+                  <div
+                    className="emotion-23 emotion-24"
+                  >
+                    <input
+                      aria-label="All"
+                      className="component-input-control component-number-control component-unit-control__input emotion-13 emotion-14 emotion-15 emotion-16"
+                      id="inspector-input-control-9"
+                      inputMode="numeric"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseDown={[Function]}
+                      onTouchStart={[Function]}
+                      size="small"
+                      style={
+                        Object {
+                          "cursor": undefined,
+                          "userSelect": undefined,
+                        }
+                      }
+                      type="number"
+                      value={10}
+                    />
+                    <fieldset
+                      className="emotion-21 emotion-22"
+                    >
+                      <legend
+                        className="emotion-19 emotion-20"
+                      >
+                        <span
+                          className="emotion-17 emotion-18"
+                        >
+                          All
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1328,58 +1702,53 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
     </div>
   </div>
   <div
-    className="components-flex__block emotion-66 emotion-67"
+    className="components-flex__block emotion-120 emotion-121"
   >
     <div
-      className="emotion-72 emotion-73"
+      className="emotion-118 emotion-119"
     >
       <div
-        className="emotion-84 emotion-85"
+        className="emotion-134 emotion-135"
       >
         <div
-          className="emotion-76 emotion-77"
-          style={
-            Object {
-              "left": 0,
-              "padding": 10,
-              "top": 0,
-              "width": "100%",
+          className="emotion-132 emotion-133"
+        >
+          <div
+            className="emotion-122 emotion-123"
+            style={
+              Object {
+                "height": 10,
+              }
             }
-          }
-        />
-        <div
-          className="emotion-76 emotion-77"
-          style={
-            Object {
-              "height": "100%",
-              "padding": 10,
-              "right": 0,
-              "top": 0,
+          />
+          <div
+            className="emotion-124 emotion-125"
+            style={
+              Object {
+                "width": 10,
+              }
             }
-          }
-        />
-        <div
-          className="emotion-76 emotion-77"
-          style={
-            Object {
-              "bottom": 0,
-              "left": 0,
-              "padding": 10,
-              "width": "100%",
+          />
+          <div
+            className="emotion-126 emotion-127"
+            style={
+              Object {
+                "height": 10,
+              }
             }
-          }
-        />
-        <div
-          className="emotion-76 emotion-77"
-          style={
-            Object {
-              "height": "100%",
-              "left": 0,
-              "padding": 10,
-              "top": 0,
+          />
+          <div
+            className="emotion-128 emotion-129"
+            style={
+              Object {
+                "width": 10,
+              }
             }
-          }
-        />
+          />
+          <div
+            className="emotion-130 emotion-131"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -1409,7 +1778,7 @@ exports[`Storyshots Components/BoxControl Icon 1`] = `
   display: block;
   pointer-events: none;
   position: absolute;
-  background-color: #000;
+  background-color: currentColor;
   opacity: 1;
   height: 2px;
   left: 3px;
@@ -1422,7 +1791,7 @@ exports[`Storyshots Components/BoxControl Icon 1`] = `
   display: block;
   pointer-events: none;
   position: absolute;
-  background-color: #000;
+  background-color: currentColor;
   opacity: 1;
   bottom: 3px;
   top: 3px;
@@ -1435,7 +1804,7 @@ exports[`Storyshots Components/BoxControl Icon 1`] = `
   display: block;
   pointer-events: none;
   position: absolute;
-  background-color: #000;
+  background-color: currentColor;
   opacity: 1;
   height: 2px;
   left: 3px;
@@ -1448,7 +1817,7 @@ exports[`Storyshots Components/BoxControl Icon 1`] = `
   display: block;
   pointer-events: none;
   position: absolute;
-  background-color: #000;
+  background-color: currentColor;
   opacity: 1;
   bottom: 3px;
   top: 3px;
@@ -4046,11 +4415,13 @@ exports[`Storyshots Components/ExternalLink Default 1`] = `
 
 exports[`Storyshots Components/Flex Default 1`] = `
 .emotion-0 {
+  box-sizing: border-box;
   min-width: 0;
   max-width: 100%;
 }
 
 .emotion-2 {
+  box-sizing: border-box;
   min-width: 0;
   max-width: 100%;
   -webkit-flex: 1;
@@ -4142,32 +4513,9 @@ exports[`Storyshots Components/Flex Default 1`] = `
 
 exports[`Storyshots Components/Flex Example Actions 1`] = `
 .emotion-0 {
+  box-sizing: border-box;
   min-width: 0;
   max-width: 100%;
-}
-
-.emotion-6 {
-  box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-
-.emotion-6 > * {
-  padding-right: 4px;
-}
-
-.emotion-6 > *:last-child {
-  padding-right: 0;
 }
 
 .emotion-10 {
@@ -4191,6 +4539,30 @@ exports[`Storyshots Components/Flex Example Actions 1`] = `
 }
 
 .emotion-10 > *:last-child {
+  padding-right: 0;
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.emotion-6 > * {
+  padding-right: 4px;
+}
+
+.emotion-6 > *:last-child {
   padding-right: 0;
 }
 
@@ -4252,35 +4624,13 @@ exports[`Storyshots Components/Flex Example Actions 1`] = `
 
 exports[`Storyshots Components/Flex Flex Block 1`] = `
 .emotion-0 {
+  box-sizing: border-box;
   min-width: 0;
   max-width: 100%;
 }
 
-.emotion-4 {
-  box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-
-.emotion-4 > * {
-  padding-right: 4px;
-}
-
-.emotion-4 > *:last-child {
-  padding-right: 0;
-}
-
 .emotion-8 {
+  box-sizing: border-box;
   min-width: 0;
   max-width: 100%;
   -webkit-flex: 1;
@@ -4309,6 +4659,30 @@ exports[`Storyshots Components/Flex Flex Block 1`] = `
 }
 
 .emotion-12 > *:last-child {
+  padding-right: 0;
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.emotion-4 > * {
+  padding-right: 4px;
+}
+
+.emotion-4 > *:last-child {
   padding-right: 0;
 }
 
@@ -4396,32 +4770,9 @@ exports[`Storyshots Components/Flex Flex Block 1`] = `
 
 exports[`Storyshots Components/Flex Flex Item 1`] = `
 .emotion-0 {
+  box-sizing: border-box;
   min-width: 0;
   max-width: 100%;
-}
-
-.emotion-4 {
-  box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-
-.emotion-4 > * {
-  padding-right: 4px;
-}
-
-.emotion-4 > *:last-child {
-  padding-right: 0;
 }
 
 .emotion-8 {
@@ -4445,6 +4796,30 @@ exports[`Storyshots Components/Flex Flex Item 1`] = `
 }
 
 .emotion-8 > *:last-child {
+  padding-right: 0;
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.emotion-4 > * {
+  padding-right: 4px;
+}
+
+.emotion-4 > *:last-child {
   padding-right: 0;
 }
 
@@ -5546,6 +5921,133 @@ exports[`Storyshots Components/Icon With An SVG 1`] = `
 </svg>
 `;
 
+exports[`Storyshots Components/InputControl Default 1`] = `
+.emotion-6 {
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 2px;
+}
+
+.emotion-8 {
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 2px;
+  padding-top: 0;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  display: block;
+  top: 50%;
+  -webkit-transition: -webkit-transform 50ms linear;
+  -webkit-transition: transform 50ms linear;
+  transition: transform 50ms linear;
+  z-index: 1;
+  color: currentColor;
+  font-size: 13px;
+  margin-top: 2px;
+  padding-bottom: 4px;
+  pointer-events: none;
+  margin-left: 8px;
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  left: 0;
+}
+
+@media ( prefers-reduced-motion:reduce ) {
+  .emotion-0 {
+    -webkit-transition-duration: 0ms;
+    transition-duration: 0ms;
+  }
+}
+
+.emotion-2.emotion-2.emotion-2 {
+  box-sizing: border-box;
+  border: none !important;
+  box-shadow: none !important;
+  display: block;
+  outline: none;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  width: 100%;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30;
+  min-height: 30px;
+}
+
+@media ( min-width:600px ) {
+  .emotion-2.emotion-2.emotion-2 {
+    font-size: 13px;
+  }
+}
+
+.emotion-2.emotion-2.emotion-2::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.emotion-2.emotion-2.emotion-2::-moz-placeholder {
+  opacity: 1;
+}
+
+.emotion-2.emotion-2.emotion-2:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.emotion-2.emotion-2.emotion-2::placeholder {
+  opacity: 1;
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  border-color: black;
+  border-radius: inherit;
+  border-style: solid;
+  border-width: 1px;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  border-color: #000;
+  border-width: 1px;
+  top: 0;
+  padding-left: 2px;
+}
+
+<div
+  className="emotion-8 emotion-9"
+>
+  <label
+    className="emotion-0 emotion-1"
+    htmlFor="inspector-input-control-10"
+    size="default"
+  >
+    Value
+  </label>
+  <div
+    className="emotion-6 emotion-7"
+  >
+    <input
+      className="component-input-control emotion-2 emotion-3"
+      id="inspector-input-control-10"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      size="default"
+      value=""
+    />
+    <fieldset
+      className="emotion-4 emotion-5"
+    />
+  </div>
+</div>
+`;
+
 exports[`Storyshots Components/Modal Default 1`] = `
 <button
   className="components-button is-secondary"
@@ -5557,22 +6059,185 @@ exports[`Storyshots Components/Modal Default 1`] = `
 `;
 
 exports[`Storyshots Components/NumberControl Default 1`] = `
-<input
-  className="component-number-control"
-  inputMode="numeric"
-  onChange={[Function]}
-  onKeyDown={[Function]}
-  onMouseDown={[Function]}
-  onTouchStart={[Function]}
-  style={
-    Object {
-      "cursor": undefined,
-      "userSelect": undefined,
-    }
+.emotion-13 {
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 2px;
+  padding-top: 5px;
+}
+
+.emotion-11 {
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 2px;
+}
+
+.emotion-9 {
+  box-sizing: border-box;
+  border-color: black;
+  border-radius: inherit;
+  border-style: solid;
+  border-width: 1px;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  border-color: #000;
+  border-width: 1px;
+  top: -5px;
+  padding-left: 2px;
+}
+
+.emotion-5 {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  display: block;
+  top: 50%;
+  -webkit-transition: -webkit-transform 50ms linear;
+  -webkit-transition: transform 50ms linear;
+  transition: transform 50ms linear;
+  z-index: 1;
+  color: #a2aab2;
+  font-size: 13px;
+  line-height: 1;
+  margin-top: 2px;
+  padding-bottom: 0;
+  position: absolute;
+  pointer-events: none;
+  -webkit-transition: -webkit-transform 50ms linear;
+  -webkit-transition: transform 50ms linear;
+  transition: transform 50ms linear;
+  -webkit-transform: translate( 0,-50%) scale(1);
+  -ms-transform: translate( 0,-50%) scale(1);
+  transform: translate( 0,-50%) scale(1);
+  margin-left: 8px;
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  left: 0;
+}
+
+@media ( prefers-reduced-motion:reduce ) {
+  .emotion-0 {
+    -webkit-transition-duration: 0ms;
+    transition-duration: 0ms;
   }
-  type="number"
-  value=""
-/>
+}
+
+.emotion-3.emotion-3.emotion-3 {
+  box-sizing: border-box;
+  border: none !important;
+  box-shadow: none !important;
+  display: block;
+  outline: none;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  width: 100%;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30;
+  min-height: 30px;
+}
+
+@media ( min-width:600px ) {
+  .emotion-3.emotion-3.emotion-3 {
+    font-size: 13px;
+  }
+}
+
+.emotion-3.emotion-3.emotion-3::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.emotion-3.emotion-3.emotion-3::-moz-placeholder {
+  opacity: 0;
+}
+
+.emotion-3.emotion-3.emotion-3:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.emotion-3.emotion-3.emotion-3::placeholder {
+  opacity: 0;
+}
+
+.emotion-7 {
+  box-sizing: border-box;
+  width: auto;
+  height: 11px;
+  display: block;
+  padding: 0;
+  font-size: 0.75em;
+  -webkit-transition: max-width 50ms linear;
+  transition: max-width 50ms linear;
+  visibility: hidden;
+  max-width: 0.01px;
+}
+
+@media ( prefers-reduced-motion:reduce ) {
+  .emotion-7 {
+    -webkit-transition-duration: 0ms;
+    transition-duration: 0ms;
+  }
+}
+
+<div
+  className="emotion-13 emotion-14"
+>
+  <label
+    className="emotion-0 emotion-1"
+    htmlFor="inspector-input-control-11"
+    size="default"
+  >
+    Number
+  </label>
+  <div
+    className="emotion-11 emotion-12"
+  >
+    <input
+      className="component-input-control component-number-control emotion-2 emotion-3 emotion-4"
+      id="inspector-input-control-11"
+      inputMode="numeric"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseDown={[Function]}
+      onTouchStart={[Function]}
+      size="default"
+      style={
+        Object {
+          "cursor": undefined,
+          "userSelect": undefined,
+        }
+      }
+      type="number"
+      value=""
+    />
+    <fieldset
+      className="emotion-9 emotion-10"
+    >
+      <legend
+        className="emotion-7 emotion-8"
+      >
+        <span
+          className="emotion-5 emotion-6"
+        >
+          Number
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
 `;
 
 exports[`Storyshots Components/Panel Default 1`] = `
@@ -11015,12 +11680,146 @@ exports[`Storyshots Components/TreeSelect Default 1`] = `
 `;
 
 exports[`Storyshots Components/UnitControl Default 1`] = `
-.emotion-4 {
+.emotion-18 {
   box-sizing: border-box;
   position: relative;
 }
 
-.emotion-0.emotion-0.emotion-0 {
+.emotion-16 {
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 2px;
+  padding-top: 5px;
+}
+
+.emotion-14 {
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 2px;
+}
+
+.emotion-10 {
+  box-sizing: border-box;
+  border-color: black;
+  border-radius: inherit;
+  border-style: solid;
+  border-width: 1px;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  border-color: #000;
+  border-width: 1px;
+  top: -5px;
+  padding-left: 2px;
+}
+
+.emotion-8 {
+  box-sizing: border-box;
+  width: auto;
+  height: 11px;
+  display: block;
+  padding: 0;
+  font-size: 0.75em;
+  -webkit-transition: max-width 50ms linear;
+  transition: max-width 50ms linear;
+  visibility: hidden;
+  max-width: 1000px;
+}
+
+@media ( prefers-reduced-motion:reduce ) {
+  .emotion-8 {
+    -webkit-transition-duration: 0ms;
+    transition-duration: 0ms;
+  }
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.emotion-20 {
+  max-width: 80px;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  display: block;
+  top: 50%;
+  -webkit-transition: -webkit-transform 50ms linear;
+  -webkit-transition: transform 50ms linear;
+  transition: transform 50ms linear;
+  z-index: 1;
+  color: #a2aab2;
+  font-size: 13px;
+  line-height: 1;
+  margin-top: 0;
+  padding-bottom: 0;
+  position: absolute;
+  -webkit-transition: -webkit-transform 50ms linear;
+  -webkit-transition: transform 50ms linear;
+  transition: transform 50ms linear;
+  -webkit-transform: translate( 0,calc(-100% + -5px) ) scale( 0.75 );
+  -ms-transform: translate( 0,calc(-100% + -5px) ) scale( 0.75 );
+  transform: translate( 0,calc(-100% + -5px) ) scale( 0.75 );
+  margin-left: 8px;
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  left: 0;
+}
+
+@media ( prefers-reduced-motion:reduce ) {
+  .emotion-0 {
+    -webkit-transition-duration: 0ms;
+    transition-duration: 0ms;
+  }
+}
+
+.emotion-4.emotion-4.emotion-4 {
+  box-sizing: border-box;
+  border: none !important;
+  box-shadow: none !important;
+  display: block;
+  outline: none;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  width: 100%;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30;
+  min-height: 30px;
+}
+
+@media ( min-width:600px ) {
+  .emotion-4.emotion-4.emotion-4 {
+    font-size: 13px;
+  }
+}
+
+.emotion-4.emotion-4.emotion-4::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.emotion-4.emotion-4.emotion-4::-moz-placeholder {
+  opacity: 1;
+}
+
+.emotion-4.emotion-4.emotion-4:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.emotion-4.emotion-4.emotion-4::placeholder {
+  opacity: 1;
+}
+
+.emotion-4.emotion-4.emotion-4 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -11031,22 +11830,15 @@ exports[`Storyshots Components/UnitControl Default 1`] = `
   display: block;
   width: 100%;
   padding-right: 20px;
-  height: 30px;
-  line-height: 30;
-  min-height: 30px;
 }
 
-.emotion-0.emotion-0.emotion-0::-webkit-outer-spin-button,
-.emotion-0.emotion-0.emotion-0::-webkit-inner-spin-button {
+.emotion-4.emotion-4.emotion-4::-webkit-outer-spin-button,
+.emotion-4.emotion-4.emotion-4::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-.emotion-6 {
-  max-width: 80px;
-}
-
-.emotion-2.emotion-2.emotion-2 {
+.emotion-12.emotion-12.emotion-12 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -11068,7 +11860,6 @@ exports[`Storyshots Components/UnitControl Default 1`] = `
   text-align-last: center;
   text-transform: uppercase;
   width: 22px;
-  z-index: 1;
   right: 4px;
   top: 5px;
   height: 20px;
@@ -11077,77 +11868,109 @@ exports[`Storyshots Components/UnitControl Default 1`] = `
   border: 1px solid transparent;
 }
 
-.emotion-2.emotion-2.emotion-2:hover {
+.emotion-12.emotion-12.emotion-12:hover {
   background-color: #edeff0;
 }
 
-.emotion-2.emotion-2.emotion-2:focus {
+.emotion-12.emotion-12.emotion-12:focus {
   border-color: #007cba;
   outline: 2px solid transparent;
   outline-offset: 0;
 }
 
 <div
-  className="emotion-6 emotion-7"
+  className="emotion-20 emotion-21"
 >
   <div
-    className="component-unit-control emotion-4 emotion-5"
+    className="component-unit-control emotion-18 emotion-19"
   >
-    <input
-      className="component-number-control component-unit-control__input emotion-0 emotion-1"
-      inputMode="numeric"
-      onChange={[Function]}
-      onKeyDown={[Function]}
-      onMouseDown={[Function]}
-      onTouchStart={[Function]}
-      size="default"
-      style={
-        Object {
-          "cursor": undefined,
-          "userSelect": undefined,
-        }
-      }
-      type="number"
-      value="10"
-    />
-    <select
-      className="component-unit-control__select component-unit-control__select emotion-2 emotion-3"
-      onChange={[Function]}
-      size="default"
-      tabIndex={null}
-      value="px"
+    <div
+      className="emotion-16 emotion-17"
     >
-      <option
-        value="px"
+      <label
+        className="emotion-0 emotion-1"
+        htmlFor="inspector-input-control-12"
+        size="default"
       >
-        px
-      </option>
-      <option
-        value="%"
+        Value
+      </label>
+      <div
+        className="emotion-14 emotion-15"
       >
-        %
-      </option>
-      <option
-        value="em"
-      >
-        em
-      </option>
-      <option
-        value="rem"
-      >
-        rem
-      </option>
-      <option
-        value="vw"
-      >
-        vw
-      </option>
-      <option
-        value="vh"
-      >
-        vh
-      </option>
-    </select>
+        <input
+          aria-label="Value"
+          className="component-input-control component-number-control component-unit-control__input emotion-2 emotion-3 emotion-4 emotion-5"
+          id="inspector-input-control-12"
+          inputMode="numeric"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          size="default"
+          style={
+            Object {
+              "cursor": undefined,
+              "userSelect": undefined,
+            }
+          }
+          type="number"
+          value="10"
+        />
+        <fieldset
+          className="emotion-10 emotion-11"
+        >
+          <legend
+            className="emotion-8 emotion-9"
+          >
+            <span
+              className="emotion-6 emotion-7"
+            >
+              Value
+            </span>
+          </legend>
+        </fieldset>
+        <select
+          className="component-unit-control__select component-unit-control__select emotion-12 emotion-13"
+          onChange={[Function]}
+          size="default"
+          tabIndex={null}
+          value="px"
+        >
+          <option
+            value="px"
+          >
+            px
+          </option>
+          <option
+            value="%"
+          >
+            %
+          </option>
+          <option
+            value="em"
+          >
+            em
+          </option>
+          <option
+            value="rem"
+          >
+            rem
+          </option>
+          <option
+            value="vw"
+          >
+            vw
+          </option>
+          <option
+            value="vh"
+          >
+            vh
+          </option>
+        </select>
+      </div>
+    </div>
   </div>
 </div>
 `;

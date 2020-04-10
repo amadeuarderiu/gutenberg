@@ -11,7 +11,9 @@
  * @return array The list of Heading blocks.
  */
 function block_core_table_of_contents_get_heading_blocks() {
-	$blocks = parse_blocks( gutenberg_get_post_from_context()->post_content );
+	global $post;
+
+	$blocks = parse_blocks( $post->post_content );
 
 	$heading_blocks = array_filter(
 		$blocks,

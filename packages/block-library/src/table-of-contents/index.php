@@ -34,7 +34,6 @@ function block_core_table_of_contents_get_heading_blocks() {
  */
 function block_core_table_of_contents_blocks_to_heading_list( $heading_blocks ) {
 	return array_map(
-		$heading_blocks,
 		function ( $heading ) {
 			$level           = $heading['attrs']['level'];
 			$heading_content = $heading['attrs']['content'];
@@ -52,7 +51,8 @@ function block_core_table_of_contents_blocks_to_heading_list( $heading_blocks ) 
 				'anchor'  => $anchor,
 				'level'   => $level,
 			);
-		}
+		},
+		$heading_blocks
 	);
 }
 

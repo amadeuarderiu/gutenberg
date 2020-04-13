@@ -146,14 +146,18 @@ function block_core_table_of_contents_render_list( $nested_heading_list ) {
 			$anchor  = $child_node['block']['anchor'];
 			$content = $child_node['block']['content'];
 
+			$item_class = 'wp-block-table-of-contents__entry';
+
 			$entry = $anchor
 				? sprintf(
-					'<a class="wp-block-table-of-contents__entry" href="%1$s">%2$s</a>',
+					'<a class="%1$s" href="%2$s">%3$s</a>',
+					$item_class,
 					esc_attr( $anchor ),
 					esc_html( $content )
 				)
 				: sprintf(
-					'<span class="wp-block-table-of-contents__entry">%1$s</span>',
+					'<span class="%1$s">%2$s</span>',
+					$item_class,
 					esc_html( $content )
 				);
 

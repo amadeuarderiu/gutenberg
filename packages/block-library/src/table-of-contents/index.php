@@ -25,6 +25,12 @@ function block_core_table_of_contents_get_heading_blocks() {
 	return $heading_blocks;
 }
 
+// Do not use this outside of this file! This will likely be removed later.
+$_block_core_table_of_contents_metadata = json_decode(
+	file_get_contents( __DIR__ . '/table-of-contents/block.json' ),
+	true
+);
+
 /**
  * Extracts text, anchor and level from a list of heading blocks.
  *
@@ -33,12 +39,25 @@ function block_core_table_of_contents_get_heading_blocks() {
  * @return array The list of heading parameters.
  */
 function block_core_table_of_contents_blocks_to_heading_list( $heading_blocks ) {
+	global $_block_core_table_of_contents_metadata;
+
+	$default_heading_level = $_block_core_table_of_contents_metadata['attributes']['level']['default'];
+
 	return array_map(
 		function ( $heading ) {
-			$attributes = $heading['attrs'];
-			$anchor     = $attributes['anchor'];
-			$content    = $attributes['content'];
-			$level      = $attributes['level'];
+			$anchor  = $heading['attrs']['anchor'];
+			$content = $heading['attrs']['content'];
+			$level   = $heading['attrs']['level'];
+
+			// Apply default heading level if no heading level is set. There
+			// is currently a bug where attributes set to the same value as the
+			// default are not saved. In this case, the level attribute of the
+			// Heading block is affected, so we have to apply the default value
+			// to get the level value for all headings that would otherwise have
+			// a heading level of 2.
+			if ( ! isset( $level ) ) {
+				$level = $default_heading_level;
+			}
 
 			// Strip HTML from heading to use as the table of contents entry.
 			$content = $content

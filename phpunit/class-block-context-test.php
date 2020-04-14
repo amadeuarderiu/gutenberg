@@ -93,13 +93,13 @@ class Block_Context_Test extends WP_UnitTestCase {
 			]
 		);
 
-		render_block(
-			parse_blocks(
-				'<!-- wp:gutenberg/test-context-provider {"contextWithAssigned":10} -->' .
-				'<!-- wp:gutenberg/test-context-consumer /-->' .
-				'<!-- /wp:gutenberg/test-context-provider -->'
-			)
+		$parsed_blocks = parse_blocks(
+			'<!-- wp:gutenberg/test-context-provider {"contextWithAssigned":10} -->' .
+			'<!-- wp:gutenberg/test-context-consumer /-->' .
+			'<!-- /wp:gutenberg/test-context-provider -->'
 		);
+
+		render_block( $parsed_blocks[0] );
 
 		$this->assertEquals(
 			[
@@ -136,14 +136,14 @@ class Block_Context_Test extends WP_UnitTestCase {
 			]
 		);
 
-		render_block(
-			parse_blocks(
-				'<!-- wp:gutenberg/test-parent -->' .
-				'<!-- wp:gutenberg/test-child /-->' .
-				'<!-- wp:gutenberg/test-child /-->' .
-				'<!-- /wp:gutenberg/test-parent -->'
-			)
+		$parsed_blocks = parse_blocks(
+			'<!-- wp:gutenberg/test-parent -->' .
+			'<!-- wp:gutenberg/test-child /-->' .
+			'<!-- wp:gutenberg/test-child /-->' .
+			'<!-- /wp:gutenberg/test-parent -->'
 		);
+
+		render_block( $parsed_blocks[0] );
 
 		$this->assertCount( 3, $block_globals );
 		$this->assertCount( 'gutenberg/test-child', $block_globals[0]['name'] );

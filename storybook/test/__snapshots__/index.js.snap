@@ -314,6 +314,8 @@ exports[`Storyshots Components/BaseControl Default 1`] = `
 exports[`Storyshots Components/BoxControl Default 1`] = `
 .emotion-116 {
   max-width: 300px;
+  padding-bottom: 12px;
+  width: 100%;
 }
 
 .emotion-3 {
@@ -330,7 +332,8 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-bottom: 8px;
+  color: #555d66;
+  padding-bottom: 8px;
 }
 
 .emotion-3 > * {
@@ -343,8 +346,9 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
 
 .emotion-0 {
   box-sizing: border-box;
-  min-width: 0;
-  max-width: 100%;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 400;
 }
 
 .emotion-114 {
@@ -366,7 +370,6 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-bottom: 16px;
 }
 
 .emotion-114 > * {
@@ -381,15 +384,30 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
   box-sizing: border-box;
   position: relative;
   height: 120px;
-  width: 200px;
+  width: 100%;
 }
 
 .emotion-5 {
-  height: 50%;
-  border-left: 1px dashed #d7dade;
-  width: 0;
+  box-sizing: border-box;
   position: absolute;
   pointer-events: none;
+  border-top: 1px dashed #d7dade;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+
+.emotion-7 {
+  box-sizing: border-box;
+  position: absolute;
+  pointer-events: none;
+  border-left: 1px dashed #d7dade;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate( 0,calc( -50% - 3px ) );
+  -ms-transform: translate( 0,calc( -50% - 3px ) );
+  transform: translate( 0,calc( -50% - 3px ) );
+  height: 50%;
 }
 
 .emotion-9 {
@@ -422,11 +440,21 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
 
 .emotion-11 {
   box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 400;
+}
+
+.emotion-11.emotion-11.emotion-11 {
+  box-sizing: border-box;
   display: block;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
   top: 50%;
-  -webkit-transition: -webkit-transform 50ms linear;
-  -webkit-transition: transform 50ms linear;
-  transition: transform 50ms linear;
+  -webkit-transition: -webkit-transform 60ms linear;
+  -webkit-transition: transform 60ms linear;
+  transition: transform 60ms linear;
   z-index: 1;
   color: #a2aab2;
   font-size: 11px;
@@ -434,12 +462,12 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
   margin-top: 0;
   padding-bottom: 0;
   position: absolute;
-  -webkit-transition: -webkit-transform 50ms linear;
-  -webkit-transition: transform 50ms linear;
-  transition: transform 50ms linear;
-  -webkit-transform: translate( 0,calc(-100% + -2px) ) scale( 0.75 );
-  -ms-transform: translate( 0,calc(-100% + -2px) ) scale( 0.75 );
-  transform: translate( 0,calc(-100% + -2px) ) scale( 0.75 );
+  -webkit-transition: -webkit-transform 60ms linear;
+  -webkit-transition: transform 60ms linear;
+  transition: transform 60ms linear;
+  -webkit-transform: translate( 0,calc(-100% + -3px) ) scale( 0.75 );
+  -ms-transform: translate( 0,calc(-100% + -3px) ) scale( 0.75 );
+  transform: translate( 0,calc(-100% + -3px) ) scale( 0.75 );
   margin-left: 8px;
   -webkit-transform-origin: top left;
   -ms-transform-origin: top left;
@@ -448,7 +476,7 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
 }
 
 @media ( prefers-reduced-motion:reduce ) {
-  .emotion-11 {
+  .emotion-11.emotion-11.emotion-11 {
     -webkit-transition-duration: 0ms;
     transition-duration: 0ms;
   }
@@ -510,12 +538,9 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
   padding-right: 3px;
 }
 
-.emotion-21 {
+.emotion-21.emotion-21.emotion-21 {
   box-sizing: border-box;
-  border-color: black;
   border-radius: inherit;
-  border-style: solid;
-  border-width: 1px;
   bottom: 0;
   left: 0;
   margin: 0;
@@ -524,26 +549,29 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
   position: absolute;
   right: 0;
   border-color: #000;
+  border-style: solid;
   border-width: 1px;
   top: -5px;
   padding-left: 2px;
 }
 
-.emotion-19 {
+.emotion-19.emotion-19.emotion-19 {
   box-sizing: border-box;
-  width: auto;
-  height: 11px;
   display: block;
+  height: 11px;
+  line-height: 11px;
+  margin: 0;
   padding: 0;
-  font-size: 0.75em;
-  -webkit-transition: max-width 50ms linear;
-  transition: max-width 50ms linear;
+  -webkit-transition: max-width 60ms linear;
+  transition: max-width 60ms linear;
   visibility: hidden;
+  width: auto;
+  font-size: 8.25px;
   max-width: 1000px;
 }
 
 @media ( prefers-reduced-motion:reduce ) {
-  .emotion-19 {
+  .emotion-19.emotion-19.emotion-19 {
     -webkit-transition-duration: 0ms;
     transition-duration: 0ms;
   }
@@ -551,22 +579,30 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
 
 .emotion-17 {
   box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
   display: inline-block;
   padding-left: 4px;
-  padding-right: 4px;
+  padding-right: 5px;
 }
 
 <div
+  aria-labelledby="inspector-box-control-0-heading"
   className="emotion-116 emotion-117"
+  id="inspector-box-control-0"
+  role="region"
 >
   <div
     className="components-flex emotion-2 emotion-3 emotion-4"
   >
-    <div
-      className="components-flex__item emotion-0 emotion-1"
+    <p
+      className="emotion-0 emotion-1"
+      id="inspector-box-control-0-heading"
     >
       Box Control
-    </div>
+    </p>
   </div>
   <div
     className="components-flex emotion-113 emotion-114 emotion-4"
@@ -575,27 +611,15 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
       className="emotion-111 emotion-112"
     >
       <div
+        aria-hidden="true"
         className="emotion-5 emotion-6"
-        style={
-          Object {
-            "left": "50%",
-            "top": "50%",
-            "transform": "translate(0, -30px)",
-          }
-        }
       />
       <div
-        className="emotion-5 emotion-6"
-        style={
-          Object {
-            "height": "75%",
-            "left": "50%",
-            "top": "0%",
-            "transform": "rotate(-90deg) translate(-15px, 0px)",
-          }
-        }
+        aria-hidden="true"
+        className="emotion-7 emotion-8"
       />
       <div
+        aria-hidden="true"
         className="emotion-9 emotion-10"
       />
       <div
@@ -650,10 +674,13 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
                 value={0}
               />
               <fieldset
+                aria-hidden="true"
                 className="emotion-21 emotion-22"
               >
                 <legend
+                  aria-hidden="true"
                   className="emotion-19 emotion-20"
+                  size="small"
                 >
                   <span
                     className="emotion-17 emotion-18"
@@ -718,10 +745,13 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
                 value={0}
               />
               <fieldset
+                aria-hidden="true"
                 className="emotion-21 emotion-22"
               >
                 <legend
+                  aria-hidden="true"
                   className="emotion-19 emotion-20"
+                  size="small"
                 >
                   <span
                     className="emotion-17 emotion-18"
@@ -786,10 +816,13 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
                 value={0}
               />
               <fieldset
+                aria-hidden="true"
                 className="emotion-21 emotion-22"
               >
                 <legend
+                  aria-hidden="true"
                   className="emotion-19 emotion-20"
+                  size="small"
                 >
                   <span
                     className="emotion-17 emotion-18"
@@ -854,10 +887,13 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
                 value={0}
               />
               <fieldset
+                aria-hidden="true"
                 className="emotion-21 emotion-22"
               >
                 <legend
+                  aria-hidden="true"
                   className="emotion-19 emotion-20"
+                  size="small"
                 >
                   <span
                     className="emotion-17 emotion-18"
@@ -922,10 +958,13 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
                 value={0}
               />
               <fieldset
+                aria-hidden="true"
                 className="emotion-21 emotion-22"
               >
                 <legend
+                  aria-hidden="true"
                   className="emotion-19 emotion-20"
+                  size="small"
                 >
                   <span
                     className="emotion-17 emotion-18"
@@ -946,6 +985,8 @@ exports[`Storyshots Components/BoxControl Default 1`] = `
 exports[`Storyshots Components/BoxControl Demo 1`] = `
 .emotion-116 {
   max-width: 300px;
+  padding-bottom: 12px;
+  width: 100%;
 }
 
 .emotion-3 {
@@ -962,7 +1003,8 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-bottom: 8px;
+  color: #555d66;
+  padding-bottom: 8px;
 }
 
 .emotion-3 > * {
@@ -975,8 +1017,9 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
 
 .emotion-0 {
   box-sizing: border-box;
-  min-width: 0;
-  max-width: 100%;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 400;
 }
 
 .emotion-114 {
@@ -998,7 +1041,6 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-bottom: 16px;
 }
 
 .emotion-114 > * {
@@ -1013,15 +1055,30 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
   box-sizing: border-box;
   position: relative;
   height: 120px;
-  width: 200px;
+  width: 100%;
 }
 
 .emotion-5 {
-  height: 50%;
-  border-left: 1px dashed #d7dade;
-  width: 0;
+  box-sizing: border-box;
   position: absolute;
   pointer-events: none;
+  border-top: 1px dashed #d7dade;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+
+.emotion-7 {
+  box-sizing: border-box;
+  position: absolute;
+  pointer-events: none;
+  border-left: 1px dashed #d7dade;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate( 0,calc( -50% - 3px ) );
+  -ms-transform: translate( 0,calc( -50% - 3px ) );
+  transform: translate( 0,calc( -50% - 3px ) );
+  height: 50%;
 }
 
 .emotion-9 {
@@ -1054,11 +1111,21 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
 
 .emotion-11 {
   box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 400;
+}
+
+.emotion-11.emotion-11.emotion-11 {
+  box-sizing: border-box;
   display: block;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
   top: 50%;
-  -webkit-transition: -webkit-transform 50ms linear;
-  -webkit-transition: transform 50ms linear;
-  transition: transform 50ms linear;
+  -webkit-transition: -webkit-transform 60ms linear;
+  -webkit-transition: transform 60ms linear;
+  transition: transform 60ms linear;
   z-index: 1;
   color: #a2aab2;
   font-size: 11px;
@@ -1066,12 +1133,12 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
   margin-top: 0;
   padding-bottom: 0;
   position: absolute;
-  -webkit-transition: -webkit-transform 50ms linear;
-  -webkit-transition: transform 50ms linear;
-  transition: transform 50ms linear;
-  -webkit-transform: translate( 0,calc(-100% + -2px) ) scale( 0.75 );
-  -ms-transform: translate( 0,calc(-100% + -2px) ) scale( 0.75 );
-  transform: translate( 0,calc(-100% + -2px) ) scale( 0.75 );
+  -webkit-transition: -webkit-transform 60ms linear;
+  -webkit-transition: transform 60ms linear;
+  transition: transform 60ms linear;
+  -webkit-transform: translate( 0,calc(-100% + -3px) ) scale( 0.75 );
+  -ms-transform: translate( 0,calc(-100% + -3px) ) scale( 0.75 );
+  transform: translate( 0,calc(-100% + -3px) ) scale( 0.75 );
   margin-left: 8px;
   -webkit-transform-origin: top left;
   -ms-transform-origin: top left;
@@ -1080,7 +1147,7 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
 }
 
 @media ( prefers-reduced-motion:reduce ) {
-  .emotion-11 {
+  .emotion-11.emotion-11.emotion-11 {
     -webkit-transition-duration: 0ms;
     transition-duration: 0ms;
   }
@@ -1142,12 +1209,9 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
   padding-right: 3px;
 }
 
-.emotion-21 {
+.emotion-21.emotion-21.emotion-21 {
   box-sizing: border-box;
-  border-color: black;
   border-radius: inherit;
-  border-style: solid;
-  border-width: 1px;
   bottom: 0;
   left: 0;
   margin: 0;
@@ -1156,26 +1220,29 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
   position: absolute;
   right: 0;
   border-color: #000;
+  border-style: solid;
   border-width: 1px;
   top: -5px;
   padding-left: 2px;
 }
 
-.emotion-19 {
+.emotion-19.emotion-19.emotion-19 {
   box-sizing: border-box;
-  width: auto;
-  height: 11px;
   display: block;
+  height: 11px;
+  line-height: 11px;
+  margin: 0;
   padding: 0;
-  font-size: 0.75em;
-  -webkit-transition: max-width 50ms linear;
-  transition: max-width 50ms linear;
+  -webkit-transition: max-width 60ms linear;
+  transition: max-width 60ms linear;
   visibility: hidden;
+  width: auto;
+  font-size: 8.25px;
   max-width: 1000px;
 }
 
 @media ( prefers-reduced-motion:reduce ) {
-  .emotion-19 {
+  .emotion-19.emotion-19.emotion-19 {
     -webkit-transition-duration: 0ms;
     transition-duration: 0ms;
   }
@@ -1183,9 +1250,13 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
 
 .emotion-17 {
   box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
   display: inline-block;
   padding-left: 4px;
-  padding-right: 4px;
+  padding-right: 5px;
 }
 
 .emotion-141 {
@@ -1315,16 +1386,20 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
       className="emotion-118 emotion-119"
     >
       <div
+        aria-labelledby="inspector-box-control-1-heading"
         className="emotion-116 emotion-117"
+        id="inspector-box-control-1"
+        role="region"
       >
         <div
           className="components-flex emotion-2 emotion-3 emotion-4"
         >
-          <div
-            className="components-flex__item emotion-0 emotion-1"
+          <p
+            className="emotion-0 emotion-1"
+            id="inspector-box-control-1-heading"
           >
             Padding
-          </div>
+          </p>
         </div>
         <div
           className="components-flex emotion-113 emotion-114 emotion-4"
@@ -1333,27 +1408,15 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
             className="emotion-111 emotion-112"
           >
             <div
+              aria-hidden="true"
               className="emotion-5 emotion-6"
-              style={
-                Object {
-                  "left": "50%",
-                  "top": "50%",
-                  "transform": "translate(0, -30px)",
-                }
-              }
             />
             <div
-              className="emotion-5 emotion-6"
-              style={
-                Object {
-                  "height": "75%",
-                  "left": "50%",
-                  "top": "0%",
-                  "transform": "rotate(-90deg) translate(-15px, 0px)",
-                }
-              }
+              aria-hidden="true"
+              className="emotion-7 emotion-8"
             />
             <div
+              aria-hidden="true"
               className="emotion-9 emotion-10"
             />
             <div
@@ -1408,10 +1471,13 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
                       value={10}
                     />
                     <fieldset
+                      aria-hidden="true"
                       className="emotion-21 emotion-22"
                     >
                       <legend
+                        aria-hidden="true"
                         className="emotion-19 emotion-20"
+                        size="small"
                       >
                         <span
                           className="emotion-17 emotion-18"
@@ -1476,10 +1542,13 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
                       value={10}
                     />
                     <fieldset
+                      aria-hidden="true"
                       className="emotion-21 emotion-22"
                     >
                       <legend
+                        aria-hidden="true"
                         className="emotion-19 emotion-20"
+                        size="small"
                       >
                         <span
                           className="emotion-17 emotion-18"
@@ -1544,10 +1613,13 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
                       value={10}
                     />
                     <fieldset
+                      aria-hidden="true"
                       className="emotion-21 emotion-22"
                     >
                       <legend
+                        aria-hidden="true"
                         className="emotion-19 emotion-20"
+                        size="small"
                       >
                         <span
                           className="emotion-17 emotion-18"
@@ -1612,10 +1684,13 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
                       value={10}
                     />
                     <fieldset
+                      aria-hidden="true"
                       className="emotion-21 emotion-22"
                     >
                       <legend
+                        aria-hidden="true"
                         className="emotion-19 emotion-20"
+                        size="small"
                       >
                         <span
                           className="emotion-17 emotion-18"
@@ -1680,10 +1755,13 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
                       value={10}
                     />
                     <fieldset
+                      aria-hidden="true"
                       className="emotion-21 emotion-22"
                     >
                       <legend
+                        aria-hidden="true"
                         className="emotion-19 emotion-20"
+                        size="small"
                       >
                         <span
                           className="emotion-17 emotion-18"
@@ -1711,6 +1789,7 @@ exports[`Storyshots Components/BoxControl Demo 1`] = `
         className="emotion-134 emotion-135"
       >
         <div
+          aria-hidden="true"
           className="emotion-132 emotion-133"
         >
           <div
@@ -4414,12 +4493,6 @@ exports[`Storyshots Components/ExternalLink Default 1`] = `
 `;
 
 exports[`Storyshots Components/Flex Default 1`] = `
-.emotion-0 {
-  box-sizing: border-box;
-  min-width: 0;
-  max-width: 100%;
-}
-
 .emotion-2 {
   box-sizing: border-box;
   min-width: 0;
@@ -4451,6 +4524,12 @@ exports[`Storyshots Components/Flex Default 1`] = `
 
 .emotion-6 > *:last-child {
   padding-right: 0;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
 }
 
 <div
@@ -4512,12 +4591,6 @@ exports[`Storyshots Components/Flex Default 1`] = `
 `;
 
 exports[`Storyshots Components/Flex Example Actions 1`] = `
-.emotion-0 {
-  box-sizing: border-box;
-  min-width: 0;
-  max-width: 100%;
-}
-
 .emotion-10 {
   box-sizing: border-box;
   display: -webkit-box;
@@ -4540,6 +4613,12 @@ exports[`Storyshots Components/Flex Example Actions 1`] = `
 
 .emotion-10 > *:last-child {
   padding-right: 0;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .emotion-6 {
@@ -4623,12 +4702,6 @@ exports[`Storyshots Components/Flex Example Actions 1`] = `
 `;
 
 exports[`Storyshots Components/Flex Flex Block 1`] = `
-.emotion-0 {
-  box-sizing: border-box;
-  min-width: 0;
-  max-width: 100%;
-}
-
 .emotion-8 {
   box-sizing: border-box;
   min-width: 0;
@@ -4660,6 +4733,12 @@ exports[`Storyshots Components/Flex Flex Block 1`] = `
 
 .emotion-12 > *:last-child {
   padding-right: 0;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .emotion-4 {
@@ -4769,12 +4848,6 @@ exports[`Storyshots Components/Flex Flex Block 1`] = `
 `;
 
 exports[`Storyshots Components/Flex Flex Item 1`] = `
-.emotion-0 {
-  box-sizing: border-box;
-  min-width: 0;
-  max-width: 100%;
-}
-
 .emotion-8 {
   box-sizing: border-box;
   display: -webkit-box;
@@ -4797,6 +4870,12 @@ exports[`Storyshots Components/Flex Flex Item 1`] = `
 
 .emotion-8 > *:last-child {
   padding-right: 0;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .emotion-4 {
@@ -5937,15 +6016,25 @@ exports[`Storyshots Components/InputControl Default 1`] = `
 
 .emotion-0 {
   box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 400;
+}
+
+.emotion-0.emotion-0.emotion-0 {
+  box-sizing: border-box;
   display: block;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
   top: 50%;
-  -webkit-transition: -webkit-transform 50ms linear;
-  -webkit-transition: transform 50ms linear;
-  transition: transform 50ms linear;
+  -webkit-transition: -webkit-transform 60ms linear;
+  -webkit-transition: transform 60ms linear;
+  transition: transform 60ms linear;
   z-index: 1;
   color: currentColor;
   font-size: 13px;
-  margin-top: 2px;
+  margin-top: 1px;
   padding-bottom: 4px;
   pointer-events: none;
   margin-left: 8px;
@@ -5956,7 +6045,7 @@ exports[`Storyshots Components/InputControl Default 1`] = `
 }
 
 @media ( prefers-reduced-motion:reduce ) {
-  .emotion-0 {
+  .emotion-0.emotion-0.emotion-0 {
     -webkit-transition-duration: 0ms;
     transition-duration: 0ms;
   }
@@ -5999,12 +6088,9 @@ exports[`Storyshots Components/InputControl Default 1`] = `
   opacity: 1;
 }
 
-.emotion-4 {
+.emotion-4.emotion-4.emotion-4 {
   box-sizing: border-box;
-  border-color: black;
   border-radius: inherit;
-  border-style: solid;
-  border-width: 1px;
   bottom: 0;
   left: 0;
   margin: 0;
@@ -6013,6 +6099,7 @@ exports[`Storyshots Components/InputControl Default 1`] = `
   position: absolute;
   right: 0;
   border-color: #000;
+  border-style: solid;
   border-width: 1px;
   top: 0;
   padding-left: 2px;
@@ -6042,6 +6129,7 @@ exports[`Storyshots Components/InputControl Default 1`] = `
       value=""
     />
     <fieldset
+      aria-hidden="true"
       className="emotion-4 emotion-5"
     />
   </div>
@@ -6072,12 +6160,9 @@ exports[`Storyshots Components/NumberControl Default 1`] = `
   border-radius: 2px;
 }
 
-.emotion-9 {
+.emotion-9.emotion-9.emotion-9 {
   box-sizing: border-box;
-  border-color: black;
   border-radius: inherit;
-  border-style: solid;
-  border-width: 1px;
   bottom: 0;
   left: 0;
   margin: 0;
@@ -6086,6 +6171,7 @@ exports[`Storyshots Components/NumberControl Default 1`] = `
   position: absolute;
   right: 0;
   border-color: #000;
+  border-style: solid;
   border-width: 1px;
   top: -5px;
   padding-left: 2px;
@@ -6093,29 +6179,43 @@ exports[`Storyshots Components/NumberControl Default 1`] = `
 
 .emotion-5 {
   box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
   display: inline-block;
   padding-left: 4px;
-  padding-right: 4px;
+  padding-right: 5px;
 }
 
 .emotion-0 {
   box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 400;
+}
+
+.emotion-0.emotion-0.emotion-0 {
+  box-sizing: border-box;
   display: block;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
   top: 50%;
-  -webkit-transition: -webkit-transform 50ms linear;
-  -webkit-transition: transform 50ms linear;
-  transition: transform 50ms linear;
+  -webkit-transition: -webkit-transform 60ms linear;
+  -webkit-transition: transform 60ms linear;
+  transition: transform 60ms linear;
   z-index: 1;
   color: #a2aab2;
   font-size: 13px;
   line-height: 1;
-  margin-top: 2px;
+  margin-top: 1px;
   padding-bottom: 0;
   position: absolute;
   pointer-events: none;
-  -webkit-transition: -webkit-transform 50ms linear;
-  -webkit-transition: transform 50ms linear;
-  transition: transform 50ms linear;
+  -webkit-transition: -webkit-transform 60ms linear;
+  -webkit-transition: transform 60ms linear;
+  transition: transform 60ms linear;
   -webkit-transform: translate( 0,-50%) scale(1);
   -ms-transform: translate( 0,-50%) scale(1);
   transform: translate( 0,-50%) scale(1);
@@ -6127,7 +6227,7 @@ exports[`Storyshots Components/NumberControl Default 1`] = `
 }
 
 @media ( prefers-reduced-motion:reduce ) {
-  .emotion-0 {
+  .emotion-0.emotion-0.emotion-0 {
     -webkit-transition-duration: 0ms;
     transition-duration: 0ms;
   }
@@ -6170,21 +6270,23 @@ exports[`Storyshots Components/NumberControl Default 1`] = `
   opacity: 0;
 }
 
-.emotion-7 {
+.emotion-7.emotion-7.emotion-7 {
   box-sizing: border-box;
-  width: auto;
-  height: 11px;
   display: block;
+  height: 11px;
+  line-height: 11px;
+  margin: 0;
   padding: 0;
-  font-size: 0.75em;
-  -webkit-transition: max-width 50ms linear;
-  transition: max-width 50ms linear;
+  -webkit-transition: max-width 60ms linear;
+  transition: max-width 60ms linear;
   visibility: hidden;
+  width: auto;
+  font-size: 9.75px;
   max-width: 0.01px;
 }
 
 @media ( prefers-reduced-motion:reduce ) {
-  .emotion-7 {
+  .emotion-7.emotion-7.emotion-7 {
     -webkit-transition-duration: 0ms;
     transition-duration: 0ms;
   }
@@ -6224,10 +6326,13 @@ exports[`Storyshots Components/NumberControl Default 1`] = `
       value=""
     />
     <fieldset
+      aria-hidden="true"
       className="emotion-9 emotion-10"
     >
       <legend
+        aria-hidden="true"
         className="emotion-7 emotion-8"
+        size="default"
       >
         <span
           className="emotion-5 emotion-6"
@@ -11698,12 +11803,9 @@ exports[`Storyshots Components/UnitControl Default 1`] = `
   border-radius: 2px;
 }
 
-.emotion-10 {
+.emotion-10.emotion-10.emotion-10 {
   box-sizing: border-box;
-  border-color: black;
   border-radius: inherit;
-  border-style: solid;
-  border-width: 1px;
   bottom: 0;
   left: 0;
   margin: 0;
@@ -11712,36 +11814,21 @@ exports[`Storyshots Components/UnitControl Default 1`] = `
   position: absolute;
   right: 0;
   border-color: #000;
+  border-style: solid;
   border-width: 1px;
   top: -5px;
   padding-left: 2px;
 }
 
-.emotion-8 {
-  box-sizing: border-box;
-  width: auto;
-  height: 11px;
-  display: block;
-  padding: 0;
-  font-size: 0.75em;
-  -webkit-transition: max-width 50ms linear;
-  transition: max-width 50ms linear;
-  visibility: hidden;
-  max-width: 1000px;
-}
-
-@media ( prefers-reduced-motion:reduce ) {
-  .emotion-8 {
-    -webkit-transition-duration: 0ms;
-    transition-duration: 0ms;
-  }
-}
-
 .emotion-6 {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 400;
   box-sizing: border-box;
   display: inline-block;
   padding-left: 4px;
-  padding-right: 4px;
+  padding-right: 5px;
 }
 
 .emotion-20 {
@@ -11750,11 +11837,21 @@ exports[`Storyshots Components/UnitControl Default 1`] = `
 
 .emotion-0 {
   box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 400;
+}
+
+.emotion-0.emotion-0.emotion-0 {
+  box-sizing: border-box;
   display: block;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
   top: 50%;
-  -webkit-transition: -webkit-transform 50ms linear;
-  -webkit-transition: transform 50ms linear;
-  transition: transform 50ms linear;
+  -webkit-transition: -webkit-transform 60ms linear;
+  -webkit-transition: transform 60ms linear;
+  transition: transform 60ms linear;
   z-index: 1;
   color: #a2aab2;
   font-size: 13px;
@@ -11762,9 +11859,9 @@ exports[`Storyshots Components/UnitControl Default 1`] = `
   margin-top: 0;
   padding-bottom: 0;
   position: absolute;
-  -webkit-transition: -webkit-transform 50ms linear;
-  -webkit-transition: transform 50ms linear;
-  transition: transform 50ms linear;
+  -webkit-transition: -webkit-transform 60ms linear;
+  -webkit-transition: transform 60ms linear;
+  transition: transform 60ms linear;
   -webkit-transform: translate( 0,calc(-100% + -5px) ) scale( 0.75 );
   -ms-transform: translate( 0,calc(-100% + -5px) ) scale( 0.75 );
   transform: translate( 0,calc(-100% + -5px) ) scale( 0.75 );
@@ -11776,7 +11873,7 @@ exports[`Storyshots Components/UnitControl Default 1`] = `
 }
 
 @media ( prefers-reduced-motion:reduce ) {
-  .emotion-0 {
+  .emotion-0.emotion-0.emotion-0 {
     -webkit-transition-duration: 0ms;
     transition-duration: 0ms;
   }
@@ -11836,6 +11933,28 @@ exports[`Storyshots Components/UnitControl Default 1`] = `
 .emotion-4.emotion-4.emotion-4::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.emotion-8.emotion-8.emotion-8 {
+  box-sizing: border-box;
+  display: block;
+  height: 11px;
+  line-height: 11px;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: max-width 60ms linear;
+  transition: max-width 60ms linear;
+  visibility: hidden;
+  width: auto;
+  font-size: 9.75px;
+  max-width: 1000px;
+}
+
+@media ( prefers-reduced-motion:reduce ) {
+  .emotion-8.emotion-8.emotion-8 {
+    -webkit-transition-duration: 0ms;
+    transition-duration: 0ms;
+  }
 }
 
 .emotion-12.emotion-12.emotion-12 {
@@ -11919,10 +12038,13 @@ exports[`Storyshots Components/UnitControl Default 1`] = `
           value="10"
         />
         <fieldset
+          aria-hidden="true"
           className="emotion-10 emotion-11"
         >
           <legend
+            aria-hidden="true"
             className="emotion-8 emotion-9"
+            size="default"
           >
             <span
               className="emotion-6 emotion-7"

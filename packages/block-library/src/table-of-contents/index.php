@@ -40,7 +40,7 @@ function block_core_table_of_contents_blocks_to_heading_list( $heading_blocks ) 
 			$content    = $attributes['content'];
 			$level      = $attributes['level'];
 
-			// Strip html from heading to use as the table of contents entry.
+			// Strip HTML from heading to use as the table of contents entry.
 			$content = $content
 				? wp_strip_all_tags( $content, true )
 				: '';

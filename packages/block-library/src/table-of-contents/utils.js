@@ -72,7 +72,7 @@ export function convertBlocksToTableOfContents( headingBlocks ) {
 	return headingBlocks.map( ( heading ) => {
 		const { anchor, content } = heading.attributes;
 
-		// Strip html from heading to use as the table of contents entry.
+		// Strip HTML from heading to use as the table of contents entry.
 		const plainContent = content ? create( { html: content } ).text : '';
 
 		// This is a string so that it can be stored/sourced as an attribute in

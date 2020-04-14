@@ -15,6 +15,23 @@ class Block_Context_Test extends WP_UnitTestCase {
 	private $registered_block_names = [];
 
 	/**
+	 * Sets up each test method.
+	 */
+	public function setUp() {
+		global $post;
+
+		parent::setUp();
+
+		$args = array(
+			'post_content' => 'example',
+			'post_excerpt' => '',
+		);
+
+		$post = $this->factory()->post->create_and_get( $args );
+		setup_postdata( $post );
+	}
+
+	/**
 	 * Tear down each test method.
 	 */
 	public function tearDown() {

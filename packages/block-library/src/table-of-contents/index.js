@@ -17,7 +17,7 @@ export { metadata, name };
 export const settings = {
 	title: __( 'Table of Contents' ),
 	description: __(
-		'Add a list of internal links allowing your readers to quickly navigate around.'
+		'Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here.'
 	),
 	icon: 'list-view',
 	category: 'layout',

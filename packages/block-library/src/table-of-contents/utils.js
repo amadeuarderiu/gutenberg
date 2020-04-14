@@ -70,20 +70,15 @@ export function linearToNestedHeadingList( headingsList, index = 0 ) {
  */
 export function convertBlocksToTableOfContents( headingBlocks ) {
 	return headingBlocks.map( ( heading ) => {
-		// This is a string so that it can be stored/sourced as an attribute in the table of contents
-		// block using a data attribute.
-		const level = heading.attributes.level.toString();
-
-		const headingContent = heading.attributes.content;
-		const anchorContent = heading.attributes.anchor;
+		const { anchor, content } = heading.attributes;
 
 		// Strip html from heading to use as the table of contents entry.
-		const content = headingContent
-			? create( { html: headingContent } ).text
-			: '';
+		const plainContent = content ? create( { html: content } ).text : '';
 
-		const anchor = anchorContent ? `#${ anchorContent }` : '';
+		// This is a string so that it can be stored/sourced as an attribute in
+		// the table of contents block using a data attribute.
+		const level = heading.attributes.level.toString();
 
-		return { content, anchor, level };
+		return { anchor, content: plainContent, level };
 	} );
 }

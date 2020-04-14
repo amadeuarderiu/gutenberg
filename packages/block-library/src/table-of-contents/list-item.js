@@ -1,12 +1,12 @@
 export default function ListItem( { children, noWrapList = false } ) {
 	if ( children ) {
 		const childNodes = children.map( ( childNode, index ) => {
-			const { content, anchor } = childNode.block;
+			const { anchor, content } = childNode.block;
 
 			const itemClassName = 'wp-block-table-of-contents__entry';
 
 			const entry = anchor ? (
-				<a className={ itemClassName } href={ anchor }>
+				<a className={ itemClassName } href={ `#${ anchor }` }>
 					{ content }
 				</a>
 			) : (

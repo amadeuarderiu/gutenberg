@@ -35,20 +35,19 @@ function block_core_table_of_contents_get_heading_blocks() {
 function block_core_table_of_contents_blocks_to_heading_list( $heading_blocks ) {
 	return array_map(
 		function ( $heading ) {
-			$level           = $heading['attrs']['level'];
-			$heading_content = $heading['attrs']['content'];
-			$anchor_content  = $heading['attrs']['anchor'];
+			$attributes = $heading['attrs'];
+			$anchor     = $attributes['anchor'];
+			$content    = $attributes['content'];
+			$level      = $attributes['level'];
 
 			// Strip html from heading to use as the table of contents entry.
-			$content = $heading_content
-				? wp_strip_all_tags( $heading_content, true )
+			$content = $content
+				? wp_strip_all_tags( $content, true )
 				: '';
 
-			$anchor = $anchor_content ? '#' . $anchor_content : '';
-
 			return array(
-				'content' => $content,
 				'anchor'  => $anchor,
+				'content' => $content,
 				'level'   => $level,
 			);
 		},
@@ -150,7 +149,7 @@ function block_core_table_of_contents_render_list( $nested_heading_list ) {
 
 			$entry = $anchor
 				? sprintf(
-					'<a class="%1$s" href="%2$s">%3$s</a>',
+					'<a class="%1$s" href="#%2$s">%3$s</a>',
 					$item_class,
 					esc_attr( $anchor ),
 					esc_html( $content )

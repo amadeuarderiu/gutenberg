@@ -42,7 +42,7 @@ class Block_Context_Test extends WP_UnitTestCase {
 	protected function register_block_type( $name, $args ) {
 		register_block_type( $name, $args );
 
-		$this->register_block_names[] = $name;
+		$this->registered_block_names[] = $name;
 	}
 
 	/**
